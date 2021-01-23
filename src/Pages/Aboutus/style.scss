@@ -1,0 +1,37 @@
+.sectionabout {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  //width:60%;
+  margin: 20px auto;
+  padding: 50px;
+}
+.blockquote {
+  text-align: center;
+  font-size: 20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  h2 {
+    color: #1e3e84;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+.blockquote:after {
+  color: #ccc;
+  font-family: Source Sans Pro;
+  content: open-quote;
+  font-size: 80px;
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% - 20px);
+  background: #fff;
+  height: 55px;
+  width: 55px;
+  line-height: normal;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+
+

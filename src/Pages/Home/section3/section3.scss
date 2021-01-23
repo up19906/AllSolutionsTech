@@ -1,0 +1,64 @@
+// @import url(https://fonts.googleapis.com/css?family=Lato);
+
+// body {
+//   display: flex;
+//   height: 100vh;
+//   justify-content: center;
+//   align-items: center;
+//   font-family: Lato, sans-serif;
+//   background: #333;
+// }
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  .cardsection3 {
+    margin: 0 10px;
+
+    .cardsection3-img-top {
+      position: relative;
+      z-index: 2;
+      max-width: 200px;
+      height: auto;
+      transform: translateY(52%);
+      transition: 0.5s;
+    }
+    .cardsection3-body {
+      z-index: 1;
+      box-sizing: border-box;
+      padding: 1.25em;
+      height: auto;
+      max-width: 200px;
+      color: #96a9b500;
+      transition: 0.5s;
+
+      .cardsection3-title {
+        font-size: 1.25em;
+        font-weight: bold;
+        line-height: 1.2;
+      }
+    }
+
+    &:hover {
+      .cardsection3-img-top {
+        transform: translateY(2%);
+      }
+
+      .cardsection3-body {
+        transform: translateY(0);
+        height: auto;
+        max-width: 200px;
+        margin-left: 10px;
+        color: #000000;
+        background: rgba(184, 202, 252, 0.568);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 427px) {
+  .container3 .cardsection3 .cardsection3-img-top {
+    max-width: 80px;
+    height: auto;
+  }
+}
