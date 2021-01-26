@@ -1,38 +1,43 @@
 import React from "react";
 import "./stylesection2.scss";
+import "./testsyle.css";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 
 const datas = [
   {
-    img: "http://allsolutionstech.com/images/stories/sk-0103.jpg",
-    title: "บริการติดตั้งตู้สาขาโทรศัพท์",
+    img:
+      "https://image.freepik.com/free-photo/cctv-security-camera_1359-621.jpg",
+    title: " Security System",
     descrition:
       "บริการติดตั้งตู้สาขาโทรศัพท์ที่ได้มาตรฐาน มีให้เลือกหลากหลายยี่ห้อ หลากหลายราคา ",
     href: "/printdesign",
   },
   {
-    img: "http://allsolutionstech.com/images/stories/sk-0106-1.jpg",
-    title: "เครื่องสแกนลายนิ้วมือ เครื่องสแกนแบบบัตรทาบ",
+    img: "https://www.secom.co.th/wp-content/uploads/2019/02/Gate-Barrier5.jpg",
+    title: "Car Park System",
     descrition: "ระบบรักษาความปลอดภัย และระบบลงเวลาของพนักงาน",
     href: "/printdesign",
   },
   {
-    img: "http://allsolutionstech.com/images/stories/sk-0109.jpg",
-    title: "สัญญาณกันขโมย",
+    img:
+      "https://image.freepik.com/free-photo/man-is-reaching-his-hand-push-fire-alarm-hand-station_1150-6644.jpg",
+    title: "Alarm System Solution",
     descrition:
       " บริการออกแบบ ให้คำแนะนำและบริการติดตั้งสัญญาณกันขโมย  สำหรับที่อยู่อาศัย อาคาร สำนักงาน โรงงาน แบบครบวงจร",
     href: "/printdesign",
   },
   {
-    img: "http://allsolutionstech.com/images/stories/sk-0105.jpg",
-    title: "ป้ายไฟ",
-    descrition: "จัดทำป้ายไฟต่างๆหลากหลายแบบ",
+    img:
+      "https://image.freepik.com/free-photo/global-connections_53876-89039.jpg",
+    title: "Communication Solution",
+    descrition: "Communication Solution",
     href: "/printdesign",
   },
   {
-    img: "http://allsolutionstech.com/images/stories/sk-0108.jpg",
-    title: "เครื่องสำรองไฟ",
+    img:
+      "https://image.freepik.com/free-photo/man-clicking-icon-house_1134-149.jpg",
+    title: "Home & Office Automation",
     descrition:
       "จำหน่ายเครื่องสำรองไฟฟ้า สำหรับคอมพิวเตอร์ตั้งโต๊ะ คุณภาพดี ราคาประหยัด มีหลากหลายยี่ห้อให้เลือกส",
     href: "/printdesign",
@@ -53,10 +58,20 @@ export default function section2() {
         <Container>
           <div className="sectionabout">
             <div className="blockquote">
-              <h2 style={{ marginTop: "35px", fontSize: "2.7vw" }}>
+              <h2
+                className="fontthai"
+                style={{ marginTop: "35px", fontSize: "2.7vw" }}
+              >
                 บริษัท ออลล์โซลูชันส์เทค จำกัด
               </h2>
-              <p style={{ fontSize: "1.2vw", textAlign: "left" }}>
+              <p
+                className="fontthai"
+                style={{
+                  fontSize: "1.2vw",
+                  marginTop: "10px",
+                  textAlign: "left",
+                }}
+              >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 ออลล์โซลูชันส์เทค
                 ให้บริการดูแลระบบงานสารสนเทศของสำนักงานทั้งหมดแบบครบวงจร
@@ -64,18 +79,8 @@ export default function section2() {
                 ทันสมัยและน่าเชื่อถือ
                 เหมาะกับทุกท่านที่อยากมีเว็บไซต์เป็นของตัวเอง
                 สามารถนำเว็บไซต์ของท่าน ไปใช้ประโยชน์ได้ในหลายรูปแบบ
-                เราพร้อมจะนำพาธุรกิจของท่านไปสู่โลกของพาณิชย์อิเล็คทรอนิกส์
-                ขอเพียงความไว้วางใจให้เราเป็นผู้ให้บริการ,ผู้ให้คำปรึกษา,ผู้ออกแบบ(webdesign)
-                และเป็นผู้ที่เดินเคียงข้างท่านเข้าสู่โลก world wide Marketing
-                เรามีทีมงานที่จะวิเคราะห์ความต้องการและแก้ไขปัญหาจากระบบงานเดิม,การจัดการด้าน
-                Network เพื่อเพิ่มประสิทธิภาพในการทำงานได้อย่างรวดเร็ว
-                เพิ่มเติมช่องทางการทำธุรกิจโดยการจัดทำ Search Engine
-                Optimization หรือ SEO เป็นกระบวนการพัฒนาเว็บไซต์
-                เพื่อเพิ่มประสิทธิภาพให้กับเว็บไซต์ของท่านสำหรับการค้นหาผ่าน
-                Search Engine เช่น
-                Google,Yahooโดยการใช้คีย์เวิร์ดในการค้นหาเว็บไซต์ให้ท่านได้อย่างรวดเร็ว
-                และ มีประสิทธิภาพมากยิ่งขึ้น
               </p>
+              <button className="button fontthai">อ่านเพิ่มเติม</button>
             </div>
           </div>
         </Container>
@@ -85,39 +90,65 @@ export default function section2() {
         style={{ boxShadow: " rgba(0, 0, 255, 0.157) 0px 0px 16px 6px" }}
       >
         <Container>
-          <div className="h-text ">
-            <h1 className="heading">บริการของเรา</h1>
-            <p>
-              บริษัท ออลล์โซลูชั่นส์เทค จำกัด เรามีงานดีไซน์ที่หลากหลายทันสมัย
-            </p>
-          </div>
-          <Container>
-            <Row>
-              {datas.map(function (data, i) {
-                return (
-                  <Col xs={12} sm={6} md={5} lg={4}>
-                    <Link
-                      to={data.href}
-                      className="cardsection2"
-                      style={{ maxWidth: "26rem", maxHeight: "25rem" }}
-                    >
-                      <div className="img-card">
-                        <img src={data.img} />
+          <Row>
+            <Col lg={9}>
+              <Row>
+                {datas.map(function (data, i) {
+                  return (
+                    <Col>
+                      <div data-aos="fade-up">
+                        <div className="content-wrapper">
+                          <div className="news-card">
+                            <a href="#" className="news-card__card-link" />
+                            <img
+                              src={data.img}
+                              alt
+                              className="news-card__image"
+                            />
+                            <div className="news-card__text-wrapper">
+                              <h2 className="news-card__title fontthai">
+                                {data.title}
+                              </h2>
+
+                              <div className="news-card__details-wrapper">
+                                <p className="news-card__excerpt fontthai">
+                                  {data.descrition}
+                                </p>
+                                <a href="#" className="news-card__read-more">
+                                  Read more <i className="fa fa-arrow-right" />
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                      <div className="card-content">
-                        <h4 className="card-title">{data.title}</h4>
-                        <div
-                          className="projcard-bar"
-                          style={{ backgroundColor: "#0e76ba" }}
-                        />
-                        <p className>{data.descrition}</p>
-                      </div>
-                    </Link>
-                  </Col>
-                );
-              })}
-            </Row>
-          </Container>
+                    </Col>
+                  );
+                })}
+              </Row>
+            </Col>
+
+            <Col lg={3}>
+              <div data-aos="fade-left">
+                <div className="single-profile mb-30">
+                  {/* Back */}
+                  <div className="single-profile-back-last">
+                    <h2 className="fontthai">สินค้า และ บริการของเรา</h2>
+                    <p className="fontthai">
+                      สอบถามข้อมูลเรื่องกล้องวงจรปิด, จำหน่ายกล้องวงจรปิด,
+                      เครืองสแกนลายนิวมีอ, สัญญาณกันขโมยบ้าน, ตู้สาขา โทรศัพท์,
+                      วางระบบ Network, ติดตั้งประตู AutoDoor, แผงไม้กั้น,
+                      วางระบบ CarPark, ออกแบบ ระบบขายหน้าร้าน POS
+                      ระบบซื่อมาขายไป ระบบจ่ายเงินเดือน และอีกมากมาย
+                    </p>
+                    <a href="#" className="fontthai">
+                      ดูสินค้าเพิ่มเติม »
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Col>
+          </Row>
         </Container>
       </div>
     </>

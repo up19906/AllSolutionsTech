@@ -1,7 +1,7 @@
 import React from "react";
 import "./stylecustomer.scss";
 import { Container, Row, Col } from "react-bootstrap";
-import { Table } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 export default function WebDesign() {
   const datas = [
@@ -70,24 +70,22 @@ export default function WebDesign() {
     <div>
       <div
         className="hero-service breadcrumb-option set-bg"
-        data-setbg="https://ecommerce-solution.co.th/img/breadcrumb/service.jpg"
+        // data-setbg="https://ecommerce-solution.co.th/img/breadcrumb/service.jpg"
         style={{
-          backgroundImage:
-            'url("https://ecommerce-solution.co.th/img/breadcrumb/service.jpg")',
+          backgroundImage: 'url("Picture/customer/customer5.jpg")',
         }}
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <div className="breadcrumb__text">
-                <h2>ลูกค้าของเรา</h2>
-                <div className="text-services">
-                  <h4>All Solutions Tech co.,Ltd</h4>
+              <div className="bg-text">
+                <div className="breadcrumb__text">
+                  <h2>ลูกค้าของเรา</h2>
+                  <div className="breadcrumb__links">
+                    <Link to="/">หน้าแรก</Link>
+                    <span>ลูกค้าของเรา</span>
+                  </div>
                 </div>
-                {/* <div className="breadcrumb__links">
-                  <a href="./index.html">หน้าแรก</a>
-                  <span>บริการของเรา</span>
-                </div> */}
               </div>
             </div>
           </div>
@@ -98,107 +96,21 @@ export default function WebDesign() {
           <Row>
             {datas.map(function (data, i) {
               return (
-                <Col lg={3}>
+                <Col xs={4} sm={4} md={4} lg={3} xl={3}>
                   <div className="card">
                     <img
                       className="card-image"
                       src={data.img}
                       alt="Psychopomp"
                     />
-                    <div className="card-description">
+                    {/* <div className="card-description">
                       <h2 style={{ fontSize: "1.5vw" }}>{data.title}</h2>
                       <p style={{ fontSize: "1vw" }}>{data.descrition}</p>
-                    </div>
+                    </div> */}
                   </div>
                 </Col>
               );
             })}
-
-            {/* <Table
-              style={{ marginLeft: "auto", marginRight: "auto" }}
-              border={0}
-            >
-              <tbody>
-                <tr>
-                  <td>
-                    <img
-                      src="https://allweb.co.th/2019/images/customers/cus-38.png"
-                      border={0}
-                    />
-                  </td>
-                  <td>
-                    <img
-                      src="https://allweb.co.th/2019/images/customers/cus-38.png"
-                      border={0}
-                    />
-                  </td>
-                  <td>
-                    <img
-                      src="https://allweb.co.th/2019/images/customers/cus-38.png"
-                      border={0}
-                    />
-                  </td>
-                  <td>
-                    <img
-                      src="https://allweb.co.th/2019/images/customers/cus-38.png"
-                      border={0}
-                    />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <img
-                      src="https://allweb.co.th/2019/images/customers/cus-38.png"
-                      border={0}
-                    />
-                  </td>
-                  <td>
-                    <img
-                      src="https://allweb.co.th/2019/images/customers/cus-38.png"
-                      border={0}
-                    />
-                  </td>
-                  <td>
-                    <img
-                      src="https://allweb.co.th/2019/images/customers/cus-40.png"
-                      border={0}
-                    />
-                  </td>
-                  <td>
-                    <img
-                      src="https://allweb.co.th/2019/images/customers/cus-41.png"
-                      border={0}
-                    />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <img
-                      src="https://allweb.co.th/2019/images/customers/cus-37.png"
-                      border={0}
-                    />
-                  </td>
-                  <td>
-                    <img
-                      src="https://allweb.co.th/2019/images/customers/cus-09.png"
-                      border={0}
-                    />
-                  </td>
-                  <td>
-                    <img
-                      src="https://allweb.co.th/2019/images/customers/cus-02.png"
-                      border={0}
-                    />
-                  </td>
-                  <td>
-                    <img
-                      src="https://allweb.co.th/2019/images/customers/cus-04.png"
-                      border={0}
-                    />
-                  </td>
-                </tr>
-              </tbody>
-            </Table> */}
           </Row>
         </ul>
       </Container>

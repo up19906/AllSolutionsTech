@@ -21,15 +21,13 @@ export default class Header extends React.Component {
   handleScroll = () => {
     if (window.pageYOffset >= 40) {
       // if (!this.state.nav) {
-      this.setState({ nav: true });
-
+      // this.setState({ nav: true });
       // this.setState({ sticky: "top" });
       // this.setState({ src: "Picture/logo/ast3.png" });
       // }
     } else {
       // if (this.state.nav) {
-      this.setState({ nav: false });
-
+      // this.setState({ nav: false });
       // this.setState({ sticky: "" });
       // this.setState({ src: "Picture/logo/ast2.png" });
     }
@@ -167,15 +165,25 @@ export default class Header extends React.Component {
           </Row>
         </div>
 
-
-        <div
-          className={`navbar ${this.state.nav && "sticky-top"} ${
-            this.state.nav && "Nav__black"
-          }`}
-        >
+        <div className="navbar sticky-top">
+          <div className="navbar-contact">
+            <div>
+              <div className="header-info-left">
+                <ul>
+                  <li>
+                    <i className="fa fa-phone" /> 02-012-3795 / 065-969-3552
+                  </li>
+                  <li>
+                    <i className="fa fa-envelope" />
+                    ast.allsolutionstech@gmail.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
           <Container>
             <Row style={{ width: "100%" }}>
-              <Col lg={3}>
+              <Col lg={3} xl={3}>
                 <div className="header__logo">
                   <NavLink
                     to="/"
@@ -187,7 +195,7 @@ export default class Header extends React.Component {
                   </NavLink>
                 </div>
               </Col>
-              <Col lg={9}>
+              <Col lg={9} xl={9} style={{ paddingRight: "0" }}>
                 <div className="header__nav">
                   <div className="header__menu">
                     <ul>

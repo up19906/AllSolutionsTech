@@ -6,12 +6,15 @@ import "./sty.css";
 export default function Footer() {
   return (
     <>
-      <div className="toppad">
+      <div
+        className="toppad"
+        style={{ boxShadow: " rgba(0, 0, 255, 0.157) 0px 0px 16px 6px" }}
+      >
         <div className="sd">
           <br />
           <Container>
             <Row>
-              <Col xs={4} sm={4} md={4} lg={4}>
+              <Col lg={4}>
                 <img
                   className="imgfooter"
                   style={{ marginTop: "auto", marginBottom: "auto" }}
@@ -19,8 +22,8 @@ export default function Footer() {
                   alt="logo-navbaer"
                 />
               </Col>
-              <Col xs={5} sm={5} md={5} lg={5}>
-                <p class="font-weight-bold" style={{ fontSize: "1.5vw" }}>
+              <Col lg={5}>
+                <p class="font-weight-bold" style={{ fontSize: "2.5vw" }}>
                   CONTACT US
                 </p>
                 <p class="font-weight-bold" style={{ fontSize: "1.2vw" }}>
@@ -56,8 +59,8 @@ export default function Footer() {
                   <br /> <br />
                 </p>
               </Col>
-              <Col xs={3} sm={3} md={3} lg={3}>
-                <p class="font-weight-bold" style={{ fontSize: "1.5vw" }}>
+              <Col lg={3}>
+                <p class="font-weight-bold" style={{ fontSize: "2.5vw" }}>
                   SERVICES
                 </p>
                 <p style={{ fontSize: "1vw" }}>

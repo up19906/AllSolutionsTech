@@ -2,7 +2,9 @@
 .card-image {
   display: block;
 
-  min-height: 20rem; /* layout hack */
+  // min-height: 10rem; /* layout hack */
+  max-width: 20vw;
+  height: auto;
   background: #fff center center no-repeat;
   background-size: cover;
   //   filter: blur(3px); /* blur the lowres image */
@@ -30,8 +32,8 @@
 
 .card-list {
   display: block;
-  margin: 1rem auto;
-  padding: 0;
+  // margin: 10rem auto;
+  padding: 30px;
   font-size: 0;
   text-align: center;
   list-style: none;
@@ -39,11 +41,11 @@
 
 .card {
   display: inline-block !important;
-//  width: 602px;
-  height: 600px;
-  max-width: 22rem;
-  max-height: 31rem;
-  margin: 1rem;
+  //  width: 602px;
+  // height: 600px;
+  // max-width: 22rem;
+  // max-height: 31rem;
+  //margin: 1rem;
   font-size: 1rem;
   text-decoration: none;
   overflow: hidden;

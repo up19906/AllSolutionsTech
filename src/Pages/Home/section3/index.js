@@ -75,7 +75,7 @@ export default function section3() {
 
   return (
     <>
-      <Container style={{ marginBottom: "100px" }}>
+      <Container style={{ marginBottom: "150px" }}>
         <div className="h-text" style={{ marginBottom: "-10px" }}>
           <h1 className="heading"> ลูกค้าของเรา </h1>{" "}
           <p>

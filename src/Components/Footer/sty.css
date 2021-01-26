@@ -1,5 +1,5 @@
 .sd {
-  /* box-shadow: 2px 2px 10px rgba(0, 0, 255, 0.158); */
+  padding-top: 35px;
 }
 .toppad {
   padding-top: 11px;
@@ -7,6 +7,6 @@
 }
 
 .imgfooter {
-  max-height: 20vw;
+  max-height: 25vw;
   width: auto;
 }

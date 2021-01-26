@@ -1,28 +1,28 @@
 import React from "react";
 import { Col, Container, Row, Button } from "react-bootstrap";
 import "./style.scss";
+import { Link } from "react-router-dom";
 export default function Contact() {
   return (
     <div>
       <div
         className="hero-service breadcrumb-option set-bg"
         style={{
-          backgroundImage:
-            'url("https://ecommerce-solution.co.th/img/breadcrumb/service.jpg")',
+          backgroundImage: 'url("Picture/about/about5.jpg")',
         }}
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
-              <div className="breadcrumb__text">
-                <h2>ติดต่อเรา</h2>
-                <div className="text-services">
-                  <h4>All Solutions Tech co.,Ltd</h4>
+              <div className="bg-text">
+                <div className="breadcrumb__text">
+                  <h2>ติดต่อเรา</h2>
+
+                  <div className="breadcrumb__links">
+                    <Link to="/">หน้าแรก</Link>
+                    <span>ติดต่อเรา</span>
+                  </div>
                 </div>
-                {/* <div className="breadcrumb__links">
-                  <a href="./index.html">หน้าแรก</a>
-                  <span>บริการของเรา</span>
-                </div> */}
               </div>
             </div>
           </div>
