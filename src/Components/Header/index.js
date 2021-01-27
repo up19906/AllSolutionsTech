@@ -8,31 +8,29 @@ export default class Header extends React.Component {
     nav: false,
     menu: false,
     boldermenu: true,
-    // sticky: "",
-    // src: "Picture/logo/ast3.png",
   };
 
-  componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
-  }
-  componentWillUnmount() {
-    window.removeEventListener("scroll");
-  }
-  handleScroll = () => {
-    if (window.pageYOffset >= 40) {
-      // if (!this.state.nav) {
-      // this.setState({ nav: true });
-      // this.setState({ sticky: "top" });
-      // this.setState({ src: "Picture/logo/ast3.png" });
-      // }
-    } else {
-      // if (this.state.nav) {
-      // this.setState({ nav: false });
-      // this.setState({ sticky: "" });
-      // this.setState({ src: "Picture/logo/ast2.png" });
-    }
-    // }
-  };
+  // componentDidMount() {
+  //   window.addEventListener("scroll", this.handleScroll);
+  // }
+  // componentWillUnmount() {
+  //   window.removeEventListener("scroll");
+  // }
+  // handleScroll = () => {
+  //   if (window.pageYOffset >= 40) {
+  //     // if (!this.state.nav) {
+  //     // this.setState({ nav: true });
+  //     // this.setState({ sticky: "top" });
+  //     // this.setState({ src: "Picture/logo/ast3.png" });
+  //     // }
+  //   } else {
+  //     // if (this.state.nav) {
+  //     // this.setState({ nav: false });
+  //     // this.setState({ sticky: "" });
+  //     // this.setState({ src: "Picture/logo/ast2.png" });
+  //   }
+  //   // }
+  // };
 
   render() {
     return (
@@ -281,7 +279,7 @@ export default class Header extends React.Component {
                 this.setState({ menu: true });
               }}
             >
-              <span className="fa fa-bars" />
+              <span className="fa fa-bars" style={{ padding: "0.2vh 0" }} />
             </div>
           </Container>
         </div>

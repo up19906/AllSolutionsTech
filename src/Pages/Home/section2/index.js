@@ -129,7 +129,7 @@ export default function section2() {
             </Col>
 
             <Col lg={3}>
-              <div data-aos="fade-left">
+              <div data-aos="fade-up">
                 <div className="single-profile mb-30">
                   {/* Back */}
                   <div className="single-profile-back-last">

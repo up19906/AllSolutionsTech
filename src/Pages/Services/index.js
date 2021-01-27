@@ -64,67 +64,69 @@ export default function Services() {
         </Container>
       </div>
 
-      <div className="projcard-container">
-        {datas.map(function (data, i) {
-          return (
-            <div>
-              <Container style={{ padding: "15px 0 70px 0" }}>
-                <div>
-                  <Row>
-                    <Col lg={8}>
-                      <Container>
-                        <div className="projcard-textbox">
-                          <h3 style={{ marginTop: "10px " }}>
-                            {/* <span className="textheader"> 1 </span> */}
-                            {data.title}
-                          </h3>
-                          <div className="projcard-bar" />
-                          <div className="projcard-description">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            {data.descrition}
+      <Container>
+        <div className="projcard-container">
+          {datas.map(function (data, i) {
+            return (
+              <div>
+                <Container style={{ padding: "15px 0 70px 0" }}>
+                  <div>
+                    <Row>
+                      <Col lg={8}>
+                        <Container>
+                          <div className="projcard-textbox">
+                            <h3 style={{ marginTop: "10px " }}>
+                              {/* <span className="textheader"> 1 </span> */}
+                              {data.title}
+                            </h3>
+                            <div className="projcard-bar" />
+                            <div className="projcard-description">
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              {data.descrition}
+                            </div>
                           </div>
+                        </Container>
+                      </Col>
+
+                      <Col lg={4} style={{ textAlign: "center" }}>
+                        <img className="projcard-img" src={data.img} />
+                      </Col>
+                    </Row>
+
+                    <Row>
+                      <Col lg={12}>
+                        <div
+                          className="projcard-title"
+                          style={{ marginTop: "30px" }}
+                        >
+                          สินค้าที่เกี่ยวข้อง
                         </div>
-                      </Container>
-                    </Col>
-
-                    <Col lg={4} style={{ textAlign: "center" }}>
-                      <img className="projcard-img" src={data.img} />
-                    </Col>
-                  </Row>
-
-                  <Row>
-                    <Col lg={12}>
-                      <div
-                        className="projcard-title"
-                        style={{ marginTop: "30px" }}
-                      >
-                        สินค้าที่เกี่ยวข้อง
-                      </div>
-                    </Col>
-                    <Col />
-                  </Row>
-                  <Row style={{ margin: "30px 20px 0" }}>
-                    {datas.map(function (data, i) {
-                      return (
-                        <Col xs={6} sm={4} md={3} lg={2} className="border">
-                          <div className="cardItem">
-                            <i
-                              className="fa fa-arrow-right"
-                              aria-hidden="true"
-                            />
-                            <span className="cardLabel">Title</span>
-                          </div>
-                        </Col>
-                      );
-                    })}
-                  </Row>
-                </div>
-              </Container>
-              <div className="projcard-bar" />
-            </div>
-          );
-        })}
-      </div>
+                      </Col>
+                      <Col />
+                    </Row>
+                    <Row style={{ margin: "30px 20px 0" }}>
+                      {datas.map(function (data, i) {
+                        return (
+                          <Col xs={6} sm={4} md={3} lg={2} className="border">
+                            <div className="cardItem">
+                              <i
+                                className="fa fa-arrow-right"
+                                aria-hidden="true"
+                              />
+                              <span className="cardLabel">Title</span>
+                            </div>
+                          </Col>
+                        );
+                      })}
+                    </Row>
+                  </div>
+                </Container>
+                <div className="projcard-bar" />
+              </div>
+            );
+          })}
+        </div>
+      </Container>
     </div>
   );
 }
