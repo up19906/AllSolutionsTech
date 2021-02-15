@@ -3,92 +3,81 @@ import "./stylesection2.scss";
 import "./testsyle.css";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
-const datas = [
+const datasulotion = [
   {
-    img:
-      "https://image.freepik.com/free-photo/cctv-security-camera_1359-621.jpg",
-    title: " Security System",
-    descrition:
-      "บริการติดตั้งตู้สาขาโทรศัพท์ที่ได้มาตรฐาน มีให้เลือกหลากหลายยี่ห้อ หลากหลายราคา ",
-    href: "/printdesign",
+    img: "Picture/home2.jpg",
+    title: "title1",
+    descrition: " ",
+    href: "/service",
+    alt: "securityforhome",
   },
   {
-    img: "https://www.secom.co.th/wp-content/uploads/2019/02/Gate-Barrier5.jpg",
-    title: "Car Park System",
-    descrition: "ระบบรักษาความปลอดภัย และระบบลงเวลาของพนักงาน",
-    href: "/printdesign",
+    img: "Picture/office3.jpg",
+    title: "title2",
+    href: "/service",
+    alt: "securityforoffice",
   },
   {
-    img:
-      "https://image.freepik.com/free-photo/man-is-reaching-his-hand-push-fire-alarm-hand-station_1150-6644.jpg",
-    title: "Alarm System Solution",
-    descrition:
-      " บริการออกแบบ ให้คำแนะนำและบริการติดตั้งสัญญาณกันขโมย  สำหรับที่อยู่อาศัย อาคาร สำนักงาน โรงงาน แบบครบวงจร",
-    href: "/printdesign",
-  },
-  {
-    img:
-      "https://image.freepik.com/free-photo/global-connections_53876-89039.jpg",
-    title: "Communication Solution",
-    descrition: "Communication Solution",
-    href: "/printdesign",
-  },
-  {
-    img:
-      "https://image.freepik.com/free-photo/man-clicking-icon-house_1134-149.jpg",
-    title: "Home & Office Automation",
-    descrition:
-      "จำหน่ายเครื่องสำรองไฟฟ้า สำหรับคอมพิวเตอร์ตั้งโต๊ะ คุณภาพดี ราคาประหยัด มีหลากหลายยี่ห้อให้เลือกส",
-    href: "/printdesign",
+    img: "Picture/factory2.jpg",
+    title: "title3",
+    href: "/service",
+    alt: "securityforfactory",
   },
 ];
 
-export default function section2() {
+const datas = [
+  {
+    img: "Picture/solution/cctv.jpg",
+    title: " Security System",
+    href: "/printdesign",
+    alt: "cctv",
+  },
+  {
+    img: "Picture/solution/carpark1.jpg",
+    title: "Car Park System",
+    href: "/printdesign",
+    alt: "carparksystem",
+  },
+  {
+    img: "Picture/solution/firealam.jpg",
+    title: "Alarm System Solution",
+    href: "/printdesign",
+    alt: "firealam",
+  },
+  {
+    img: "Picture/solution/comunity.jpg",
+    title: "Communication Solution",
+    href: "/printdesign",
+    alt: "communitysolution",
+  },
+  {
+    img: "Picture/solution/homoffice.jpg",
+    title: "Home & Office Automation",
+    href: "/printdesign",
+    alt: "homeandofficesolution",
+  },
+];
+
+export default function Section2() {
+  const { t } = useTranslation();
+
   return (
     <>
       <div
         className="section"
         style={{
           backgroundColor: "#ffffff00",
-          paddingTop: "50px",
           boxShadow: "0px 6px 13px 3px rgba(0, 0, 255, 0.158)",
         }}
       >
-        <Container>
-          <div className="sectionabout">
-            <div className="blockquote">
-              <h2
-                className="fontthai"
-                style={{ marginTop: "35px", fontSize: "2.7vw" }}
-              >
-                บริษัท ออลล์โซลูชันส์เทค จำกัด
-              </h2>
-              <p
-                className="fontthai"
-                style={{
-                  fontSize: "1.2vw",
-                  marginTop: "10px",
-                  textAlign: "left",
-                }}
-              >
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                ออลล์โซลูชันส์เทค
-                ให้บริการดูแลระบบงานสารสนเทศของสำนักงานทั้งหมดแบบครบวงจร
-                อาทิเช่น ออกแบบสร้างเว็บไซต์ ด้วยการดีไซน์ที่สวยงาม
-                ทันสมัยและน่าเชื่อถือ
-                เหมาะกับทุกท่านที่อยากมีเว็บไซต์เป็นของตัวเอง
-                สามารถนำเว็บไซต์ของท่าน ไปใช้ประโยชน์ได้ในหลายรูปแบบ
-              </p>
-              <button className="button fontthai">อ่านเพิ่มเติม</button>
-            </div>
-          </div>
-        </Container>
-      </div>
-      <div
-        className="section"
-        style={{ boxShadow: " rgba(0, 0, 255, 0.157) 0px 0px 16px 6px" }}
-      >
+        <div className="h-text" style={{ marginBottom: "10vh" }}>
+          <h1 className="heading"> {t("home.section2.header")} </h1>{" "}
+          {/* <p>
+            บริษัท ออลล์โซลูชั่นส์เทค จำกัด เรามีงานดีไซน์ที่หลากหลายทันสมัย
+          </p> */}
+        </div>
         <Container>
           <Row>
             <Col lg={9}>
@@ -99,24 +88,32 @@ export default function section2() {
                       <div data-aos="fade-up">
                         <div className="content-wrapper">
                           <div className="news-card">
-                            <a href="#" className="news-card__card-link" />
+                            <Link
+                              to="/services"
+                              className="news-card__card-link"
+                            ></Link>
+
                             <img
                               src={data.img}
-                              alt
+                              alt={data.alt}
                               className="news-card__image"
                             />
                             <div className="news-card__text-wrapper">
-                              <h2 className="news-card__title fontthai">
+                              <h3 className="news-card__title fontthai">
                                 {data.title}
-                              </h2>
+                              </h3>
 
                               <div className="news-card__details-wrapper">
-                                <p className="news-card__excerpt fontthai">
+                                {/* <p className="news-card__excerpt fontthai">
                                   {data.descrition}
-                                </p>
-                                <a href="#" className="news-card__read-more">
-                                  Read more <i className="fa fa-arrow-right" />
-                                </a>
+                                </p> */}
+                                <Link
+                                  to="/services"
+                                  className="news-card__read-more"
+                                >
+                                  {t("home.section1.button")}{" "}
+                                  <i className="fa fa-arrow-right" />
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -133,23 +130,112 @@ export default function section2() {
                 <div className="single-profile mb-30">
                   {/* Back */}
                   <div className="single-profile-back-last">
-                    <h2 className="fontthai">สินค้า และ บริการของเรา</h2>
-                    <p className="fontthai">
-                      สอบถามข้อมูลเรื่องกล้องวงจรปิด, จำหน่ายกล้องวงจรปิด,
-                      เครืองสแกนลายนิวมีอ, สัญญาณกันขโมยบ้าน, ตู้สาขา โทรศัพท์,
-                      วางระบบ Network, ติดตั้งประตู AutoDoor, แผงไม้กั้น,
-                      วางระบบ CarPark, ออกแบบ ระบบขายหน้าร้าน POS
-                      ระบบซื่อมาขายไป ระบบจ่ายเงินเดือน และอีกมากมาย
-                    </p>
-                    <a href="#" className="fontthai">
+                    <h3 className="fontthai">{t("home.section2.title1")}</h3>
+                    <p className="fontthai">{t("home.section2.detail")}</p>
+                    {/* <a href="#" className="fontthai">
                       ดูสินค้าเพิ่มเติม »
-                    </a>
+                    </a> */}
+                    <Link
+                      to="/services"
+                      className="news-card__read-more"
+                      style={{
+                        background: "#fff0",
+                        color: "#212529",
+                        border: "none",
+                      }}
+                    >
+                      <p style={{ fontWeight: "700" }}>
+                        {t("home.section2.button")} »
+                      </p>
+                    </Link>
                   </div>
                 </div>
               </div>
             </Col>
           </Row>
         </Container>
+      </div>
+      <div
+        className="section"
+        style={{
+          boxShadow: " rgba(0, 0, 255, 0.157) 0px 0px 16px 6px",
+        }}
+      >
+        <div
+          className="section2-bg"
+          style={{
+            // margin: "0 50px",
+            backgroundImage: "url(Picture/bg3.jpg)",
+          }}
+        >
+          <div className="section2-text">
+            <Row style={{ marginRight: "0" }}>
+              <Col xs={3} sm={3} md={3} lg={3}>
+                <b />
+              </Col>
+              <Col xs={6} sm={6} md={6} lg={6}>
+                <h3>{t("home.section2.title2")}</h3>
+              </Col>
+              <Col s={3} sm={3} md={3} lg={3}>
+                <b />
+              </Col>
+            </Row>
+            <p style={{ fontSize: "17px", marginRight: "5vw" }}>
+              {t("home.section2.description")}
+            </p>
+          </div>
+        </div>
+
+        <div
+          style={{
+            marginTop: "-6vw",
+            marginLeft: "2.5vw",
+            marginRight: " 2vw ",
+          }}
+        >
+          <Row>
+            {datasulotion.map(function (data, i) {
+              return (
+                <Col lg={4}>
+                  <div
+                    className="news-card"
+                    style={{
+                      borderRadius: "0",
+                      height: "auto",
+                    }}
+                  >
+                    <Link
+                      to="/services"
+                      className="news-card__card-link"
+                    ></Link>
+
+                    <img
+                      style={{ maxWidth: "100%", height: "auto" }}
+                      src={data.img}
+                      alt={data.alt}
+                      className="news-card__image"
+                    />
+                    <div className="news-card__text-wrapper">
+                      {/* <p className="news-card__excerpt fontthai">
+                        {data.descrition}
+                      </p> */}
+                      <h3 className="news-card__title fontthai">
+                        {t("home.section1." + data.title)}
+                      </h3>
+
+                      <div className="news-card__details-wrapper">
+                        <Link to="/services" className="news-card__read-more">
+                          {t("home.section1.button")}{" "}
+                          <i className="fa fa-arrow-right" />
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+              );
+            })}
+          </Row>
+        </div>
       </div>
     </>
   );

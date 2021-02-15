@@ -1,14 +1,18 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import "./style.scss";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { Container, Row, Col } from "react-bootstrap";
+
 export default function PrintDesign() {
+  const { t } = useTranslation();
+
   return (
     <div>
       <div
         className="hero-service breadcrumb-option set-bg"
         style={{
-          backgroundImage: 'url("Picture/about/about.jpg")',
+          backgroundImage: 'url("Picture/about/about5.jpg")',
         }}
       >
         <div className="container">
@@ -16,10 +20,13 @@ export default function PrintDesign() {
             <div className="col-lg-12 text-center">
               <div className="bg-text">
                 <div className="breadcrumb__text">
-                  <h2>เกี่ยวกับเรา</h2>
+                  <h2>{t("header.menu4")}</h2>
                   <div className="breadcrumb__links">
-                    <Link to="/">หน้าแรก</Link>
-                    <span>เกี่ยวกับเรา</span>
+                    <Link to="/">{t("header.menu1")}</Link>
+                    {/* <span>
+                      <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </span> */}
+                    <span>{t("header.menu4")}</span>
                   </div>
                 </div>
               </div>
@@ -27,33 +34,91 @@ export default function PrintDesign() {
           </div>
         </div>
       </div>
-      <Container>
-        <div className="sectionabout">
-          <div className="blockquote">
-            <h2 style={{ marginTop: "35px", fontSize: "2.7vw" }}>
-              บริษัท ออลล์โซลูชันส์เทค จำกัด
+
+      <div className="sectionabout">
+        <div className="blockquote">
+          <Container>
+            <h2 style={{ marginTop: "35px", fontSize: "28px" }}>
+              {t("home.section1.header")}
             </h2>
-            <p style={{ fontSize: "1.2vw", textAlign: "left" }}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ออลล์โซลูชันส์เทค
-              ให้บริการดูแลระบบงานสารสนเทศของสำนักงานทั้งหมดแบบครบวงจร อาทิเช่น
-              ออกแบบสร้างเว็บไซต์ ด้วยการดีไซน์ที่สวยงาม ทันสมัยและน่าเชื่อถือ
-              เหมาะกับทุกท่านที่อยากมีเว็บไซต์เป็นของตัวเอง
-              สามารถนำเว็บไซต์ของท่าน ไปใช้ประโยชน์ได้ในหลายรูปแบบ
-              เราพร้อมจะนำพาธุรกิจของท่านไปสู่โลกของพาณิชย์อิเล็คทรอนิกส์
-              ขอเพียงความไว้วางใจให้เราเป็นผู้ให้บริการ,ผู้ให้คำปรึกษา,ผู้ออกแบบ(webdesign)
-              และเป็นผู้ที่เดินเคียงข้างท่านเข้าสู่โลก world wide Marketing
-              เรามีทีมงานที่จะวิเคราะห์ความต้องการและแก้ไขปัญหาจากระบบงานเดิม,การจัดการด้าน
-              Network เพื่อเพิ่มประสิทธิภาพในการทำงานได้อย่างรวดเร็ว
-              เพิ่มเติมช่องทางการทำธุรกิจโดยการจัดทำ Search Engine Optimization
-              หรือ SEO เป็นกระบวนการพัฒนาเว็บไซต์
-              เพื่อเพิ่มประสิทธิภาพให้กับเว็บไซต์ของท่านสำหรับการค้นหาผ่าน
-              Search Engine เช่น
-              Google,Yahooโดยการใช้คีย์เวิร์ดในการค้นหาเว็บไซต์ให้ท่านได้อย่างรวดเร็ว
-              และ มีประสิทธิภาพมากยิ่งขึ้น
+            <p
+              style={{ fontSize: "18px", margin: "4vh 0", textAlign: "center" }}
+            >
+              {t("aboutus.descrition")}
             </p>
-          </div>
+          </Container>
         </div>
-      </Container>
+      </div>
+      <div style={{ width: "99%", paddingLeft: "1.7vw" }}>
+        <div
+          className="bg-about"
+          style={{
+            backgroundImage: "url(Picture/bg-about1.jpg)",
+          }}
+        >
+          <Row>
+            <Col lg={{ size: 6, offset: 6 }}>
+              <div className="about-bgtext">
+                <div className="about-text">
+                  <h2>{t("aboutus.aboutus_title1")}</h2>
+                  <p style={{ fontSize: "17px" }}>
+                    {t("aboutus.aboutus_description1")}
+                  </p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </div>
+
+        <Row style={{ margin: "0.5vh 0.25vw 5vh 0.25vw" }}>
+          <Col lg={6} style={{ padding: "0.25vw" }}>
+            <div
+              className="bg-about"
+              style={{
+                // margin: "0 50px",
+                backgroundImage: "url(Picture/bg-about2_1.jpg)",
+              }}
+            >
+              <Row>
+                <Col lg={{ size: 6, offset: 2 }}>
+                  <div className="about-bgtext">
+                    {" "}
+                    <div className="about-text">
+                      <h2>{t("aboutus.aboutus_title2")}</h2>
+                      <p style={{ fontSize: "17px" }}>
+                        {t("aboutus.aboutus_description2")}
+                      </p>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </Col>
+          <Col lg={6} style={{ padding: "0.25vw" }}>
+            <div
+              className="bg-about"
+              style={{
+                // margin: "0 50px",
+                backgroundImage: "url(Picture/bg-about3_1.jpg)",
+              }}
+            >
+              <Row>
+                <Col lg={{ size: 6, offset: 1 }}>
+                  <div className="about-bgtext">
+                    {" "}
+                    <div className="about-text">
+                      <h2>{t("aboutus.aboutus_title3")}</h2>
+                      <p style={{ fontSize: "17px" }}>
+                        {t("aboutus.aboutus_description3")}
+                      </p>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          </Col>
+        </Row>
+      </div>
     </div>
   );
 }

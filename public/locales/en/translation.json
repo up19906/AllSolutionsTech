@@ -1,0 +1,71 @@
+{
+  "header": {
+    "menu1": "Home",
+    "menu2": "Services",
+    "menu3": "Customer",
+    "menu4": "About",
+    "menu5": "Contact",
+    "head1": "Head office",
+    "head2": "Nakhon Ratchasima Office",
+    "Address1": " 47/316 Poppular Rd., Ban Mai, Pak Kret, Nonthaburi 11120",
+    "Address2": "3279/25 Suebsiri Rd, T.Nimueng, A.Mueng, NakhonRatchasima,Thailand 30000"
+  },
+  "footer": {
+    "ser1": "CCTV",
+    "ser2": "CCTV sales",
+    "ser3": "Fingerprint scanner",
+    "ser4": "Home burglar alarm",
+    "ser5": "PABX phone",
+    "ser6": "Set up a system Network",
+    "ser7": "Install the door AutoDoor",
+    "ser8": "Wooden partition",
+    "ser9": "Set up a system CarPark",
+    "ser10": "Point of Sale system design",
+    "ser11": "Buy and sell system",
+    "ser12": "Payroll system and much more"
+  },
+  "aboutus": {
+    "descrition": "All Solutions Tech Provides a full range of services for administration of all office information systems such asWebsite design With a beautiful design Modern and reliableSuitable for everyone who wants to have their own website.Can bring your website To be useful in many waysWe are ready to bring your business to the world of e-commerce.Just trust us to be a service provider, consultant, designer (webdesign).And is a person who walks alongside you into a world wide Marketing worldWe have a team that will analyze the needs and solve problems from the old system, managing theNetwork to improve work efficiency quickly.Additional business channels by preparing Search Engine OptimizationOr SEO is a website development processTo optimize your website for search throughSearch Engine for exampleGoogle, Yahoo by using keywords to find the website for you quickly.And more efficient",
+    "aboutus_title1": "Professional team",
+    "aboutus_description1": "How good is the product without being installed and maintained by a qualified professional? Good product then Maybe the worst thing, so Allsolutionstech. With more than 50 employees who are ready to serve you with heart and professional work system There is a systematic, clear, fast and verifiable customer database.",
+    "aboutus_title2": "Broken… repairable…",
+    "aboutus_description2": "Allsolutionstech Have stock of all parts So that you can be sure that Spoiled product We can actually fix it. In no time",
+    "aboutus_title3": "trust..",
+    "aboutus_description3": "When the product is broken or has a problem Allsolutionstech Has the ability to repair the anti-theft system for you By factory engineer"
+  },
+  "services": {
+    "headdescrition": "Safety system for"
+  },
+  "home": {
+    "section1": {
+      "header": "ALL SOLUTIONS TECH CO.,LTD.",
+      "descrition": "All Solutions Tech provides service centers, security systems and IT systems. Get advice And design CCTV systems, fingerprint scanners, access control systems - out, alarms - fire fighting equipment and safety, safety equipment, emergency assistive devices - laying a PBX system, telephone system, Network, structure IT Fundamentals, IT Information Systems & Equipment, Fibers Optics, Wi-Fi, Networking, Server - Business Management Software Buy-Sell, Food Court Management Software, Barcode Reader - LED Display, Advertising materials, software and website development",
+      "title1": "Safety system for Home and living",
+      "title2": "Safety system for Office and organization",
+      "title3": "Safety system for Factories and large businesses",
+      "button": "Read more"
+    },
+    "section2": {
+      "header": "Services",
+      "title1": "Our products and services",
+      "detail": "Inquire about CCTV, selling CCTV,New me-style scanner, home burglar alarm, PBX phone,Network system, AutoDoor door installation, partition panel,Set up a CarPark system, design a POS system for sale. System of purchase to sell. Payroll system and much more",
+      "button": "See more products",
+      "title2": "Which service to choose?",
+      "description": "Because there are various safety systems If you can't get started AllSolutionsTech Help you choose a safety system"
+    },
+    "section3": {
+      "title1": "โรงแรมราชพฤกษ์",
+      "title2": "ร้านอาหาร Soshabuki",
+      "title3": "สถาบันการพลศึกษา จ.ชัยภูมิ",
+      "title4": "Advice นครราชสีมา สาขาสืบศิริ",
+      "title5": "LAND & HOUSES",
+      "title6": "สำนักงานประกันสังคม นครราชสีมา",
+      "title7": "กรุงไทย แอกซ่า",
+      "title8": "โรงแรมราชพฤกษ์",
+      "title9": "โรงแรมราชพฤกษ์",
+      "title10": "โรงแรมราชพฤกษ์",
+      "title11": "โรงแรมราชพฤกษ์",
+      "title12": "โรงแรมราชพฤกษ์"
+    }
+  }
+}

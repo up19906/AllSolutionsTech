@@ -3,7 +3,7 @@
   background: #fff;
   //width:60%;
   margin: 20px auto;
-  padding: 50px;
+  padding: 30px 5vw;
 }
 .blockquote {
   text-align: center;
@@ -15,7 +15,7 @@
   h2 {
     font-family: "Kanit";
     color: #1e3e84;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
   }
 }
@@ -33,4 +33,23 @@
   line-height: normal;
   text-align: center;
   transform: translateX(-50%);
+}
+
+.bg-about {
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+}
+.about-text {
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  // margin-right: 5vw;
+  right: 2%;
+  // margin-top: 4vw;
+  color: #fff;
+}
+.about-bgtext {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 2.5vw;
+  padding: 2vw;
 }

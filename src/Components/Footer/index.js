@@ -1,9 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
 import "./sty.css";
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <>
       <div
@@ -17,64 +19,75 @@ export default function Footer() {
               <Col lg={4}>
                 <img
                   className="imgfooter"
-                  style={{ marginTop: "auto", marginBottom: "auto" }}
-                  src="Picture/logo/ast2.png"
-                  alt="logo-navbaer"
+                  style={{ marginTop: "auto", marginBottom: "5vh" }}
+                  src="Picture/logo/ast5.png"
+                  alt="logo"
                 />
               </Col>
               <Col lg={5}>
-                <p class="font-weight-bold" style={{ fontSize: "2.5vw" }}>
+                <p class="font-weight-bold" style={{ fontSize: "32px" }}>
                   CONTACT US
                 </p>
-                <p class="font-weight-bold" style={{ fontSize: "1.2vw" }}>
-                  {" "}
-                  บริษัท ออลล์โซลูชั่นส์เทค จำกัด
-                  <br />
-                  ALL SOLUTIONS TECH CO.,LTD.
+                <p class="font-weight-bold" style={{ fontSize: "19px" }}>
+                  {t("home.section1.header")}
+                  {/* <br />
+                  ALL SOLUTIONS TECH CO.,LTD. */}
                 </p>
-                <p style={{ fontSize: "1vw" }}>
+                <p style={{ fontSize: "18px" }}>
+                  <i
+                    className="fa fa-map-marker"
+                    style={{ marginRight: "5px" }}
+                  />
                   <b>
-                    สำนักงานใหญ่
+                    {t("header.head1")}
                     <br />
                   </b>
-                  ที่อยู่ : 47/316 ถ.ป๊อปปูล่า ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี
-                  11120
+                  {t("header.Address1")}
+                  {/* <br />
+                  47/316 Poppular Rd., Ban Mai, Pak Kret, Nonthaburi 11120{" "} */}
                   <br />
-                  47/316 Poppular Rd., Ban Mai, Pak Kret, Nonthaburi 11120{" "}
+                  {/* <i
+                    className="fa fa-map-marker"
+                    style={{ marginRight: "5px" }}
+                  />
+                  <b> {t("header.head2")} </b>
                   <br />
-                  <br />
-                  <b>สำนักงานนครราชสีมา </b>
-                  <br />
-                  ที่อยู่ : 3279/25 ถ.สืบศิริ ต.ในเมือง อ.เมือง จ.นครราชสีมา
-                  30000
-                  <br />
+                  {t("header.Address2")} */}
+                  {/* <br />
                   3279/25 Suebsiri Rd, T.Nimueng, A.Mueng,
-                  NakhonRatchasima,Thailand 30000 <br />
+                  NakhonRatchasima,Thailand 30000 <br /> */}
                   <br />
-                  โทรศัพท์/แฟ็กซ์ 02-012-3795 / 065-969-3552 <br />
-                  Tel./Fax. +662-012-3795 <br />
-                  Mobile : +665-969-3552
-                  <br />
-                  Email : ast.allsolutionstech@gmail.com
+                  <i class="fa fa-phone"></i> 02-012-3795 / 065-969-3552 <br />
+                  {/* Tel./Fax. +662-012-3795 <br />
+                  Mobile : +665-969-3552 */}
+                  {/* <br /> */}
+                  <i
+                    className="fa fa-envelope"
+                    style={{ paddingRight: "5px" }}
+                  />
+                  ast.allsolutionstech@gmail.com
                   <br /> <br />
                 </p>
               </Col>
               <Col lg={3}>
-                <p class="font-weight-bold" style={{ fontSize: "2.5vw" }}>
+                <p class="font-weight-bold" style={{ fontSize: "32px" }}>
                   SERVICES
                 </p>
-                <p style={{ fontSize: "1vw" }}>
+                <p style={{ fontSize: "18px" }}>
                   {" "}
-                  กล้องวงจรปิด <br />
-                  จำหน่ายกล้องวงจรปิด <br />
-                  เครื่องสแกนลายนิ้วมือ <br />
-                  สัญญาณกันขโมยบ้าน <br /> ตู้สาขาโทรศัพท์ <br /> วางระบบ
-                  Network <br />
-                  ติดตั้งประตู AutoDoor <br /> แผงไม้กั้น <br />
-                  วางระบบ CarPark <br />
-                  ออกแบบระบบขายหน้าร้าน POS <br />
-                  ระบบซื้อมาขายไป <br />
-                  ระบบจ่ายเงินเดือนและอีกมากมาย
+                  {t("footer.ser1")} <br />
+                  {t("footer.ser2")}
+                  <br />
+                  {t("footer.ser3")}
+                  <br />
+                  {t("footer.ser4")} <br /> {t("footer.ser5")} <br />{" "}
+                  {t("footer.ser6")} <br />
+                  {t("footer.ser7")} <br /> {t("footer.ser8")} <br />
+                  {t("footer.ser9")} <br />
+                  {t("footer.ser10")}
+                  <br />
+                  {t("footer.ser11")} <br />
+                  {t("footer.ser12")}
                 </p>
               </Col>
             </Row>

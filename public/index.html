@@ -1,23 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="shortcus icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      gtag("config", "GA_MEASUREMENT_ID");
+    </script>
 
-  <!-- <script src="https:code.jquery.com/jquery-3.4.1min.js"></script> -->
-  <!--
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#00000" />
+    <!-- <base href="http://www.allsolutionstech.co.th/" /> -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <!-- <meta name="robots" content="index, follow" /> -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="บริษัท ออลล์โซลูชั่นเทค จำกัด" />
+    <meta
+      property="og:description"
+      content="บริษัท ออลล์โซลูชั่นเทค จำกัด ให้บริการงานระบบครบวงจร จำหน่าย ติดตั้ง และซ่อมบำรุง ระบบลานจอดรถ ระบบรักษาความปลอดภัย ระบบแจ้งเตือนเพลิงไหม้ ระบบอินเตอร์เน็ต ระบบบ้านและออฟฟิศ และมีสินค้าอื่นๆอีกมากมาย"
+    />
+    <meta property="og:site_name" content="All SOLUTION TECH CO., LTD" />
+    <meta property="og:locale" content="th_TH" />
+    <meta property="og:image" content="Picture/header-bg.jpg" />
+    <meta
+      name="description"
+      content="บริษัท ออลล์โซลูชั่นเทค จำกัด ให้บริการงานระบบครบวงจร จำหน่าย ติดตั้ง และซ่อมบำรุง ระบบลานจอดรถ ระบบรักษาความปลอดภัย ระบบแจ้งเตือนเพลิงไหม้ ระบบอินเตอร์เน็ต ระบบบ้านและออฟฟิศ และมีสินค้าอื่นๆอีกมากมาย เช่น กล้องวงจรปิด ครบครันที่สุด ทั้งกล้องวงจรปิด แสกนนิ้วมือ สแกนใบหน้า คีย์การ์ด ตู้สาขาโทรศัพท์ ระบบอินเตอร์เน็ต สัญญาณกันขโมย ป้ายอิงค์เจ็ท ป้ายไฟ จอ LED ติดตั้งและบำรุงรักษาโดยช่างมืออาชีพมากประสบการณ์ งานเนี๊ยบทุกจุด บริการหลังการขายยอดเยี่ยม"
+    />
+
+    <meta
+      name="keywords"
+      content="AllSolutionsTech,solution,smarthome,cctv,firealam,carparksystem,securitysystem,comucationsolution,solutiontech, ระบบลานจอดรถ , ระบบรักษาความปลอดภัย,ระบบแจ้งเตือนเพลิงไหม้,ระบบอินเตอร์เน็ต,ระบบบ้านและออฟฟิศ,จำหน่ายตู้สาขาโคราช, เครื่องโทรศัพท์ตู้สาขาโคราช, ระบบตู้สาขาโคราช, ตู้สาขาโทรศัพท์, Hardware, ตู้สาขาโทรศัพท์, FORTH, PANASONIC, NEC, INTRO, Internet โคราช, Voice Logger, คีย์การ์ด, เครื่องอ่านนามบัตร, เครื่องบันทึกภาพ DVR, Emergency Lights, Fax Panasonic, กล้องวงจรปิด โคราช, CCTVโคราช, ทีวีวงจรปิดโคราช, รับซ่อมโทรศัพท์, รับทำนามบัตรโคราช, คีย์การ์ดโคราช, Line Mobile, โทรศัพท์สายเดี่ยวโคราช, โทรศัพท์ไร้สายโคราช, โทรศัพท์ในบ้านโคราช, จำหน่ายเครื่องแฟกซ์โคราช, กล้องวงจรปิดโคราช, ราคากล้องวงจรปิด, ติดตั้งกล้องวงจรปิดโคราช, ขายกล้องวงจรปิดโคราช, ราคากล้องวงจรปิดโคราช, รักษาความปลอดภัย, ระบบกล้องโคราช, วงจรปิดโคราช, การติดตั้ง, กล้องวงจรปิด, กล้องสี, กล้องอินฟาเรทโคราช, ติดตั้งระบบอินเตอร์เน็ต, กล้องวงจรปิด, กล้องวงจรปิดโคราช, สัญญาณกันขโมยโคราช, ศูนย์รวมกล้องวงจรปิดโคราช, วงจรปิดไร้สายโคราช, จำหน่ายเครื่องสแกนลายนิ้วมือโคราช, คีย์การ์ดโคราช, ระบบกันขโมยโคราช, เครื่องสแกนลายนิ้วมือโคราช, คีย์การ์ด KeyCard, เครื่องอ่านลายนิ้วมือโคราช, รับติดตั้งอินเตอร์เน็ตโคราช, รับติดตั้งอินเตอร์เน็ตโรงแรม โคราช, รับติดตั้งอินเตอร์เน็ต รีสอร์ท โคราช, วางระบบอินเตอร์เน็ตโคราช, internet, wifi, wireless, billing, hotspot, อินเตอร์เน็ตโคราช, คอมพิวเตอร์โคราช, Network, LAN, Wireless, CAT 5, Accessories, รับวางระบบ NETWORKโคราช, ระบบ Linux Server, ระบบ Windows Server, Log file, ออกแบบระบบเครือข่ายโคราช, ระบบอินเตอร์เน็ตโคราช, ติดตั้ง WIFIF โคราช, hotspot, ระบบป้องกัน p2p-Bittorrent, ออฟฟิต, อพาร์ทเม้นท์, กำจัดไวรัสคอมพิวเตอร์โคราช, ไวรัสคอมพิวเตอร์โคราช, ติดตั้งเครื่องสแกนใบหน้า โคราช, เครื่องสแกนใบหน้า โคราช, ระบบกันขโมยโคราช, เครื่องเครื่องสแกนใบหน้า โคราช"
+    />
+    <!-- <meta
+      name="generator"
+      content="Joomla! 1.5 - Open Source Content Management"
+    /> -->
+
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- <script src="https:code.jquery.com/jquery-3.4.1min.js"></script> -->
+    <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <!--
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -26,19 +71,18 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-  <title>React App</title>
-</head>
+    <title>AllSolutionsTech</title>
+  </head>
 
-<body>
+  <body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
-
-  <div id="root"></div>
-  <!--
+    <div id="root"></div>
+    <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -48,6 +92,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-</body>
-
+  </body>
 </html>

@@ -1,9 +1,41 @@
 import React from "react";
 import "./section4.scss";
-import Carousel from "react-multi-carousel";
-import { Container, Col, Row, Button } from "react-bootstrap";
+import { Container, Col, Row, Button, Form } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
+import axios from "axios";
+import { useForm, Controller } from "react-hook-form";
 
-export default function section4() {
+export default function Section4() {
+  const { control, handleSubmit } = useForm();
+
+  const Data = {
+    username: "",
+    email: "",
+    subject: "",
+    content: "",
+    phone: "",
+  };
+  const [formdata, setFormdata] = React.useState(Data);
+  const Chagform = (e) => {
+    setFormdata({ ...formdata, [e.target.name]: e.target.value });
+  };
+  console.log("From Test Change", formdata);
+  const onSubmitform = async () => {
+    console.log("submit sucss", formdata.username);
+    await axios.post("http://www.allsolutionstech.co.th/send-contact.php", {
+      name: formdata.username,
+      subject: formdata.subject,
+      email: formdata.email,
+      content: formdata.content,
+      phone: formdata.phone,
+    });
+    setFormdata(Data);
+    alert("ส่งข้อความสำเร็จ");
+  };
+
+  // const [validated, setValidated] = useState(false);
+  console.log("submit sucss formData", formdata);
+  const { t } = useTranslation();
   return (
     <>
       <div className="section4">
@@ -12,30 +44,37 @@ export default function section4() {
             <Row>
               <Col lg={6}>
                 <div className="contact-padding">
-                  <h2>ติดต่อเรา</h2>
+                  <h2>{t("header.menu5")}</h2>
                   <ul>
                     <li style={{ padding: "15px 0" }}>
                       <i
                         className="fa fa-map-marker"
                         style={{ marginRight: "5px" }}
                       />
-                      <span> ที่ตั้ง : </span> สำนักงานใหญ่
+                      <b> {t("header.head1")}</b>
                       <br />
-                      ที่อยู่ : 47/316 ถ.ป๊อปปูล่า ต.บ้านใหม่ อ.ปากเกร็ด
-                      จ.นนทบุรี 11120 <br /> 47/316 Poppular Rd., Ban Mai, Pak
-                      Kret, Nonthaburi 11120
+                      {t("header.Address1")}
+                      {/* <br /> 47/316 Poppular Rd., Ban Mai, Pak
+                      Kret, Nonthaburi 11120 */}
                       <br />
-                      สำนักงานนครราชสีมา <br /> ที่อยู่ : 3279/25 ถ.สืบศิริ
-                      ต.ในเมือง อ.เมือง จ.นครราชสีมา 30000 <br />
+                      {/* <i
+                        className="fa fa-map-marker"
+                        style={{ marginRight: "5px" }}
+                      />
+                      <b>{t("header.head2")} </b> <br /> {t("header.Address2")}{" "} */}
+                      {/* <br />
                       3279/25 Suebsiri Rd, T.Nimueng, A.Mueng,
-                      NakhonRatchasima,Thailand 30000
+                      NakhonRatchasima,Thailand 30000 */}
+                    </li>
+                    <li>
+                      <i class="fa fa-phone" style={{ marginRight: "5px" }}></i>{" "}
+                      02-012-3795 / 065-969-3552 <br />
                     </li>
                     <li>
                       <i
                         className="fa fa-envelope"
                         style={{ marginRight: "5px" }}
                       />
-                      <span className="padding-5"> อีเมล : </span>
                       <a
                         href="mailto:ast.allsolutionstech@gmail.com"
                         className="contact-padding"
@@ -49,31 +88,27 @@ export default function section4() {
               </Col>
               <Col lg={6}>
                 <div className="contact-padding">
-                  <form
-                    id="main-contact-form"
-                    name="contact-form"
-                    method="post"
-                    action="sendemail.php"
-                  >
-                    <div
-                      className="row  wow fadeInUp animated"
-                      data-wow-duration="1000ms"
-                      data-wow-delay="300ms"
-                      style={{
-                        visibility: "visible",
-                        animationDuration: "1000ms",
-                        animationDelay: "300ms",
-                        animationName: "fadeInUp",
-                      }}
-                    >
+                  <Form noValidate onSubmit={handleSubmit(onSubmitform)}>
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        name="username"
+                        onChange={Chagform}
+                        value={formdata.username}
+                        className="form-control"
+                        placeholder="ชื่อ-นามสกุล"
+                      />
+                    </div>
+                    <div className="row  wow fadeInUp animated">
                       <div className="col-sm-6">
                         <div className="form-group">
                           <input
-                            type="text"
-                            name="name"
+                            type="tel"
+                            name="phone"
+                            onChange={Chagform}
+                            value={formdata.phone}
                             className="form-control"
-                            placeholder="Name"
-                            required="required"
+                            placeholder="เบอร์โทรศัพท์"
                           />
                         </div>
                       </div>
@@ -82,43 +117,41 @@ export default function section4() {
                           <input
                             type="email"
                             name="email"
+                            onChange={Chagform}
+                            value={formdata.email}
                             className="form-control"
-                            placeholder="Email Address"
-                            required="required"
+                            placeholder="อีเมล"
                           />
                         </div>
                       </div>
                     </div>
+
                     <div className="form-group">
                       <input
                         type="text"
                         name="subject"
+                        onChange={Chagform}
+                        value={formdata.subject}
                         className="form-control"
-                        placeholder="Subject"
-                        required="required"
+                        placeholder="หัวข้อเรื่อง"
                       />
                     </div>
                     <div className="form-group">
                       <textarea
-                        name="message"
-                        id="message"
+                        name="content"
+                        onChange={Chagform}
+                        value={formdata.content}
                         className="form-control"
-                        rows={11}
-                        placeholder="Enter your message"
-                        required="required"
-                        defaultValue={""}
+                        rows={5}
+                        placeholder="รายละเอียด"
                       />
                     </div>
                     <div className="form-group" style={{ textAlign: "right" }}>
-                      <Button
-                        type="button"
-                        className=" primary-btn"
-                        // onclick="sendContactForm()"
-                      >
+                      <Button type="submit" className=" primary-btn">
                         ส่งข้อความ
                       </Button>
                     </div>
-                  </form>
+                  </Form>
                 </div>
               </Col>
             </Row>

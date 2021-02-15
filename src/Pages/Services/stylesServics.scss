@@ -2,6 +2,7 @@ body {
   background-color: #ffffff !important;
   line-height: 1.9em !important;
   font-family: "Kanit" !important;
+  font-weight: 300 !important;
 }
 
 @media (min-width: 1200px) {
@@ -14,9 +15,87 @@ body {
   }
 }
 
+@media (min-width: 1440px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1300px !important;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1700px !important;
+  }
+}
+.bar {
+  margin-bottom: 15vh !important;
+  margin-top: 20vh !important;
+}
+
+.closeproduct {
+  font-size: 1.5rem;
+  color: red;
+  // position: absolute;
+  right: 5%;
+  top: 2vh;
+}
+.product-detail {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 59%;
+  width: 75vw;
+  height: 70vh;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 999;
+  text-align: left;
+  padding: 3vw;
+  overflow-y: auto;
+  h3 {
+    color: #025073;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #025073;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  img {
+    max-width: 30vh;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.product-bg {
+  left: 46%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: 111vw;
+  height: 104vh;
+  background-color: #3f4244a9;
+  position: fixed;
+  z-index: 997;
+}
+
+.imgproduct {
+  max-width: 100%;
+}
 .breadcrumb__links a {
   padding-bottom: 20px;
-  font-size: 1vw;
+  font-size: 14px;
   color: #ffffff;
   margin-right: 18px;
   display: inline-block;
@@ -30,12 +109,12 @@ body {
   position: absolute;
   right: -15px;
   top: 0;
-  content: "";
+  content: "\f105";
   font-family: "FontAwesome";
 }
 
 .breadcrumb__links span {
-  font-size: 1vw;
+  font-size: 14px;
   color: #a8a8a8;
   display: inline-block;
 }
@@ -46,15 +125,16 @@ body {
   height: 220px;
   margin-bottom: 100px;
 }
-.border {
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  padding: 0 !important;
+.paddingcard {
+  border: none !important;
+  padding: 2vw !important;
 }
 .cardItem {
   // height: 149px;
   // width: 141px;
   // margin-top: 100px;
   // margin-right: 20px;
+  height: 100%;
   padding: 20px;
   // margin: 10px;
   text-align: center;
@@ -107,7 +187,7 @@ body {
   padding-top: 10px;
   font-weight: 400;
   margin-bottom: 5px;
-  font-size: 5vw;
+  font-size: 35px;
 }
 
 .breadcrumb-option {
@@ -126,6 +206,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.open-detail {
+  display: block !important;
 }
 
 .set-services {
@@ -153,7 +236,7 @@ body {
   border-radius: 10px;
   // background-color: #fff;
   // border: 2px solid #ddd;
-  font-size: 18px;
+  font-size: 1.5vw;
   overflow: hidden;
   box-shadow: 0 4px 21px -8px rgba(0, 0, 0, 0.66);
   transition: box-shadow 0.2s ease, transform 0.2s ease;
@@ -188,11 +271,21 @@ body {
   background-color: #0088ff;
 }
 .projcard-description {
-  font-size: 1vw;
+  font-size: 18px;
   // color: #424242;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.content {
+  display: none;
+  .active {
+    .content {
+      display: block;
+    }
+  }
+}
+
 .projcard-tagbox {
   margin-top: 30px;
   position: absolute;
@@ -203,13 +296,13 @@ body {
 }
 
 .textheader {
-  color: #ffcd00;
+  color: #0e76ba;
   font-weight: 600;
-  margin-right: 8px;
-  font-size: 1.8em;
-  position: absolute;
+  margin-right: 1vw;
+  font-size: 4vw;
+  /* position: absolute; */
   left: 0;
-  top: -2px;
+  top: -16px;
 }
 
 .projcard-product {
@@ -260,5 +353,20 @@ body {
 @media only screen and (max-width: 427px) {
   .projcard {
     padding: 20px;
+  }
+  .bar {
+    margin-top: 0vh !important;
+    margin-bottom: 6vh !important;
+  }
+}
+@media only screen and (max-width: 769px) and (min-width: 428px) {
+  .bar {
+    margin-top: 5vh !important;
+    margin-bottom: 10vh !important;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .textheader {
+    font-size: 7vw;
   }
 }

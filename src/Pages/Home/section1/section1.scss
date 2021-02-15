@@ -1,184 +1,218 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
 
-.button {
-  -webkit-appearance: none;
-  appearance: none;
-  -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
-  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
-  -webkit-transition: all 0.5s ease;
-  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  border: none;
-  background: #0e76ba;
-  border-radius: 30px;
+.banner-top {
+  background-repeat: no-repeat;
+  height: 55vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 0.9vh 0;
+}
+
+.settext {
+  text-align: justify;
+  // word-break: break-all;
+}
+
+.description {
+  text-align: justify;
+  // word-break: break-all;
+  font-size: 18px;
+  margin: 4vh 0;
+}
+
+// .button {
+//   -webkit-appearance: none;
+//   appearance: none;
+//   -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+//   filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+//   -webkit-transition: all 0.5s ease;
+//   filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+//   -webkit-transition: all 0.5s ease;
+//   transition: all 0.5s ease;
+//   border: none;
+//   background: #0e76ba;
+//   border-radius: 10px;
+//   text-transform: uppercase;
+//   box-sizing: border-box;
+//   padding: 10px 20px;
+//   font-weight: 400;
+//   font-size: 20px;
+//   cursor: cursor;
+// }
+
+// .button:hover {
+//   color: #ffffff;
+//   background: #222222;
+//   -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+//   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+// }
+
+.primary-btn {
+  display: inline-block;
+  font-size: 14px;
+  padding: 2px 10px;
+  color: #ffffff;
   text-transform: uppercase;
-  box-sizing: border-box;
-  padding: 15px 40px;
-  font-weight: 400;
-  font-size: 13px;
-  cursor: cursor;
+  font-weight: 300;
+  background: #1d86c8e0;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  border: solid 1px #00b3fe;
 }
 
-.button:hover {
-  color: #ffffff;
-  background: #222222;
-  -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
-  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
-}
-
-.wrapper {
-  max-width: 1335px;
-  box-sizing: border-box;
-  padding: 0 20px;
-  margin: auto;
-}
-
-.wrapper a {
-  display: inline-block;
-  margin: 5px;
-}
-
-.wrapper a:first-child {
-  margin-left: 0;
-}
-
-.slider-wrapper {
-  position: relative;
-  height: 85vh;
-  overflow: hidden;
-}
-.slide {
-  height: 80vh;
-  background-size: cover !important;
-}
-
-.slide::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(transparent),
-    to(rgba(0, 0, 0, 0.9))
-  );
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
-  bottom: 0;
-  left: 0;
-}
-
-.previousButton,
-.nextButton {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  background: url("https://svgshare.com/i/TKC.svg") no-repeat center center /
-    46px;
-  width: 32px;
-  height: 32px;
-  text-indent: -9999px;
-  cursor: pointer;
-}
-
-.previousButton:hover,
-.nextButton:hover {
-  background: url("https://svgshare.com/i/TKC.svg") no-repeat center center /
-    36px;
-}
-
-.previousButton {
-  left: 20px;
-  -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
-  transform: rotate(180deg) translateY(calc(50% + 0px));
-}
-
-// .previousButton:hover {
-//   left: -10px;
+// .wrapper {
+//   max-width: 1335px;
+//   box-sizing: border-box;
+//   padding: 0 20px;
+//   margin: auto;
 // }
 
-.nextButton {
-  right: 20px;
-}
+// .wrapper a {
+//   display: inline-block;
+//   margin: 5px;
+// }
 
+// .wrapper a:first-child {
+//   margin-left: 0;
+// }
+
+// .slider-wrapper {
+//   position: relative;
+//   height: 85vh;
+//   overflow: hidden;
+// }
+// .slide {
+//   height: 80vh;
+//   background-size: cover !important;
+// }
+
+// .slide::before {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   background: -webkit-gradient(
+//     linear,
+//     left top,
+//     left bottom,
+//     from(transparent),
+//     to(rgba(0, 0, 0, 0.9))
+//   );
+//   background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+//   bottom: 0;
+//   left: 0;
+// }
+
+// .previousButton,
+// .nextButton {
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   z-index: 10;
+//   background: url("https://svgshare.com/i/TKC.svg") no-repeat center center /
+//     46px;
+//   width: 32px;
+//   height: 32px;
+//   text-indent: -9999px;
+//   cursor: pointer;
+// }
+
+// .previousButton:hover,
 // .nextButton:hover {
-//   right: -10px;
+//   background: url("https://svgshare.com/i/TKC.svg") no-repeat center center /
+//     36px;
 // }
 
-.slider-content {
-  text-align: center;
-}
+// .previousButton {
+//   left: 20px;
+//   -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
+//   transform: rotate(180deg) translateY(calc(50% + 0px));
+// }
 
-.slider-content .inner {
-  padding: 0 70px;
-  box-sizing: border-box;
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+// // .previousButton:hover {
+// //   left: -10px;
+// // }
 
-.slider-content .inner button {
-  -webkit-transition-delay: 0s;
-  transition-delay: 0s;
-}
+// .nextButton {
+//   right: 20px;
+// }
 
-.slider-content .inner h1 {
-  font-weight: 900;
-  margin: 0 auto;
-  max-width: 840px;
-  color: #ffffff;
-  font-size: 64px;
-  line-height: 1;
-}
+// // .nextButton:hover {
+// //   right: -10px;
+// // }
 
-.slider-content .inner p {
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 1.5;
-  margin: 20px auto 30px;
-  max-width: 640px;
-}
+// .slider-content {
+//   text-align: center;
+// }
 
-.slider-content section {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-}
+// .slider-content .inner {
+//   padding: 0 70px;
+//   box-sizing: border-box;
+//   position: absolute;
+//   width: 100%;
+//   top: 50%;
+//   left: 50%;
+//   -webkit-transform: translate(-50%, -50%);
+//   transform: translate(-50%, -50%);
+// }
 
-.slider-content section span {
-  color: #ffffff;
-}
+// .slider-content .inner button {
+//   -webkit-transition-delay: 0s;
+//   transition-delay: 0s;
+// }
 
-.slider-content section span {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 12px;
-  display: inline-block;
-  text-align: left;
-  line-height: 1.4;
-  vertical-align: middle;
-  margin-left: 10px;
-}
+// .slider-content .inner h1 {
+//   font-weight: 600;
+//   margin: 0 auto;
+//   max-width: 840px;
+//   color: #ffffff;
+//   font-size: 40px;
+//   line-height: 1;
+// }
 
-.slider-content section img {
-  width: 40px;
-  height: 40px;
-  border: solid 2px rgba(255, 255, 255, 0.5);
-  border-radius: 100%;
-  vertical-align: middle;
-}
+// .slider-content .inner p {
+//   color: #ffffff;
+//   font-size: 14px;
+//   line-height: 1.5;
+//   margin: 20px auto 30px;
+//   max-width: 640px;
+// }
 
-.slider-content section span strong {
-  color: #ffffff;
-  font-size: 14px;
-  display: block;
-}
+// .slider-content section {
+//   position: absolute;
+//   bottom: 20px;
+//   left: 20px;
+// }
+
+// .slider-content section span {
+//   color: #ffffff;
+// }
+
+// .slider-content section span {
+//   color: rgba(255, 255, 255, 0.5);
+//   font-size: 12px;
+//   display: inline-block;
+//   text-align: left;
+//   line-height: 1.4;
+//   vertical-align: middle;
+//   margin-left: 10px;
+// }
+
+// .slider-content section img {
+//   width: 40px;
+//   height: 40px;
+//   border: solid 2px rgba(255, 255, 255, 0.5);
+//   border-radius: 100%;
+//   vertical-align: middle;
+// }
+
+// .slider-content section span strong {
+//   color: #ffffff;
+//   font-size: 14px;
+//   display: block;
+// }
 
 @media (max-height: 500px) {
   .slider-wrapper,
@@ -202,6 +236,10 @@
 
 @media (max-width: 640px) {
   .slider-content .inner h1 {
-    font-size: 32px;
+    font-size: 25px;
+  }
+  .banner-top {
+    height: 25vh;
+    background-size: 107% 100%;
   }
 }
