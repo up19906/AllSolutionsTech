@@ -4,10 +4,12 @@ import axios from "axios";
 import "./style.scss";
 // import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { useForm, Controller } from "react-hook-form";
+import { useForm } from "react-hook-form";
 
 export default function Contact() {
-  const { control, handleSubmit } = useForm();
+  const { t } = useTranslation();
+
+  const { handleSubmit } = useForm();
 
   const Data = {
     username: "",
@@ -36,8 +38,6 @@ export default function Contact() {
 
   // const [validated, setValidated] = useState(false);
   console.log("submit sucss formData", formdata);
-
-  const { t } = useTranslation();
 
   return (
     <div>
@@ -73,7 +73,10 @@ export default function Contact() {
                     <br />
                   </li>
                   <li>
-                    <i class="fa fa-phone" style={{ marginRight: "5px" }}></i>{" "}
+                    <i
+                      className="fa fa-phone"
+                      style={{ marginRight: "5px" }}
+                    ></i>{" "}
                     02-012-3795 / 065-969-3552 <br />
                   </li>
                   <li>
@@ -104,7 +107,7 @@ export default function Contact() {
                       onChange={Chagform}
                       value={formdata.username}
                       className="form-control"
-                      placeholder="ชื่อ-นามสกุล"
+                      placeholder={t("contact.name")}
                     />
                   </div>
                   <div className="row  wow fadeInUp animated">
@@ -116,7 +119,7 @@ export default function Contact() {
                           onChange={Chagform}
                           value={formdata.phone}
                           className="form-control"
-                          placeholder="เบอร์โทรศัพท์"
+                          placeholder={t("contact.tel")}
                         />
                       </div>
                     </div>
@@ -128,7 +131,7 @@ export default function Contact() {
                           onChange={Chagform}
                           value={formdata.email}
                           className="form-control"
-                          placeholder="อีเมล"
+                          placeholder={t("contact.email")}
                         />
                       </div>
                     </div>
@@ -141,7 +144,7 @@ export default function Contact() {
                       onChange={Chagform}
                       value={formdata.subject}
                       className="form-control"
-                      placeholder="หัวข้อเรื่อง"
+                      placeholder={t("contact.title")}
                     />
                   </div>
                   <div className="form-group">
@@ -151,12 +154,12 @@ export default function Contact() {
                       value={formdata.content}
                       className="form-control"
                       rows={5}
-                      placeholder="รายละเอียด"
+                      placeholder={t("contact.description")}
                     />
                   </div>
                   <div className="form-group" style={{ textAlign: "right" }}>
                     <Button type="submit" className=" primary-btn">
-                      ส่งข้อความ
+                      {t("contact.submit")}
                     </Button>
                   </div>
                 </Form>

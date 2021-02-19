@@ -10,3 +10,13 @@
   max-height: 50vw;
   width: auto;
 }
+.footerservices {
+  font-size: 18px;
+}
+.footerservices a {
+  color: black;
+  text-decoration: none;
+}
+.footerservices a:hover {
+  text-decoration: none;
+}

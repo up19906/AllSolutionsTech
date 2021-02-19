@@ -33,8 +33,1254 @@
     "aboutus_title3": "trust..",
     "aboutus_description3": "When the product is broken or has a problem Allsolutionstech Has the ability to repair the anti-theft system for you By factory engineer"
   },
+  "contact": {
+    "alert": "Message was sent successfully",
+    "name": "name",
+    "tel": "tel",
+    "email": "email",
+    "title": "title",
+    "description": "description",
+    "submit": "submit"
+  },
   "services": {
-    "headdescrition": "Safety system for"
+    "headdescrition": "Safety system for",
+    "product": "Related Products",
+    "property": "Property",
+    "data": [
+      {
+        "id": "1",
+        "img": "Picture/house2.jpg",
+        "alt": "securityforhome",
+        "textheader": "Home and living",
+        "descriptionheader": "Safety system for",
+        "title": "Safety system for Home and living",
+        "descrition": "All Solutions Tech Company Limited Consulting and installing SmartHome system Burglar alarm And closed circuit camera system Inside and outside the house",
+        "services": [
+          {
+            "servicestitle": "SMART HOME",
+            "descrition": "Smart home or smart home is the use of technology to control home appliances. Through the control box and sensor devices to detect different types of work Together, called the Home Automation system to facilitate the homeowners With the system to control the lights or adjust the brightness Operate the air conditioner Open and close the curtains according to the light conditions Order to open and close the gate It is also an anti-theft system. Which all work orders and notifications can be made through Applications on smartphones comfortably, Home Automation systems need to be used via a wireless network. Which users must have an Internet system to work anywhere By sending commands through the main control box to send information to the electrical appliances to work as desired.",
+            "img": "Picture/home/smarthome2.jpg",
+            "alt": "smarthome",
+
+            "product": [
+              {
+                "name": "HomeXpert Remote gate",
+                "img": "Picture/home/smarthome4.jpg",
+                "alt": "HomeXpert Remote gate",
+                "property": [
+                  {
+                    "pro": "The control unit is enclosed in a sealed box to protect from dust, moisture, heat and insects"
+                  },
+                  {
+                    "pro": "Electronic components are used exclusively from world-class factories only."
+                  },
+                  {
+                    "pro": "The motor has high power but consumes little power."
+                  },
+                  {
+                    "pro": "Drive system with grease lubrication eliminates maintenance problems"
+                  },
+                  {
+                    "pro": "Spotlight connector with protective fuse, homeowners can connect the lights and use the remote control immediately."
+                  }
+                ]
+              },
+              {
+                "name": "Switch Motion sensor",
+                "img": "Picture/home/smarthome1.jpg",
+                "alt": "Switch Motion sensor",
+                "property": [
+                  {
+                    "pro": "Detection area 110 degrees, distance 4 meters"
+                  },
+                  {
+                    "pro": "Adjust the light delay time 30 seconds -10 minutes."
+                  },
+                  {
+                    "pro": "Adjust the brightness of the room (dark - bright) where the light switch will start."
+                  },
+                  {
+                    "pro": "Can be used as Auto (motion detection) or On-Off (general switch)"
+                  },
+                  {
+                    "pro": "Replace the original switch instantly. Use with bulbs up to 600 watts."
+                  }
+                ]
+              },
+              {
+                "name": "Switch Timer",
+                "img": "Picture/home/smarthom2.png",
+                "alt": "Switch Timer",
+                "property": [
+                  {
+                    "pro": "Suitable for homes or offices for controlling up to 3 independent switches."
+                  },
+                  {
+                    "pro": "Blue LED, beautiful, easy to use."
+                  },
+                  {
+                    "pro": "LED indicates the status of each power switch."
+                  },
+                  {
+                    "pro": "Weekly Timer size 1 switch button"
+                  },
+                  {
+                    "pro": "Can open-close 12 programs"
+                  },
+                  {
+                    "pro": "2 mode : Auto - Manual"
+                  },
+                  {
+                    "pro": "Power (max) 600 watts"
+                  },
+                  {
+                    "pro": "Ready Battery backup"
+                  }
+                ]
+              },
+              {
+                "name": "Smart home system",
+                "img": "Picture/home/smarthome4.png",
+                "alt": "Smart home system",
+                "property": [
+                  {
+                    "pro": "Has high security Because it uses a specific frequency encoded"
+                  },
+                  {
+                    "pro": "Can be used in conjunction with a switch And general power sockets in the market"
+                  },
+                  {
+                    "pro": "There are no restrictions on the use of electricity."
+                  },
+                  {
+                    "pro": "Durable, long service life"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "servicestitle": "Burglar alarm",
+            "img": "Picture/home_burglar.jpg",
+            "alt": "homeburglar",
+            "descrition": "Home burglar alarm is an alarm device when an intrusion from outsiders advances into our homes. That will detect the intrusion that will come and steal property. Or cause with bad intentions This will alert the home owner. In order to be able to stop the incident immediately It consists of three main components: control unit, various detectors and display devices. Each part will work together with the software. It serves as a system management function, so the home burglar alarm is like a watchman to keep an eye on the normal things that enter your home safely, and a digital door lock is a barrier and alerting the user.",
+            "product": [
+              {
+                "name": "LIGHTSYS LCD KEYPAD",
+                "img": "Picture/home/homeburglar/product1.jpg",
+                "alt": "LIGHTSYS LCD KEYPAD",
+                "property": [
+                  {
+                    "pro": "Graphic LCD keypad with or without proximity reader. Compatible with LightSYS and all ProSYS panels"
+                  }
+                ]
+              },
+              {
+                "name": "SHOCKTEC™ PLUS DIGITAL SHOCK DETECTORS ",
+                "img": "Picture/home/homeburglar/product2.jpg",
+                "alt": "SHOCKTEC™ PLUS DIGITAL SHOCK DETECTORS ",
+                "property": [
+                  {
+                    "pro": "Digital Microprocessor with Intelligent Digital Signal Processing"
+                  },
+                  {
+                    "pro": "Gross Attack detection"
+                  },
+                  {
+                    "pro": "Incorporates a door/window magnetic contact for shock and contact protection (separate zones)"
+                  },
+                  {
+                    "pro": "Attempts to defeat the contact with large magnets cause a tamper alarm"
+                  },
+                  {
+                    "pro": "Intelligent Digital Signal processing – differentiates between naturally caused vibrations and cuts out frequencies that cannot be caused by an illegal entry attempt"
+                  },
+                  {
+                    "pro": "Ideal for windows, doors, walls and roofs"
+                  },
+                  {
+                    "pro": "Encapsulated bi-morph piezo electric sensor"
+                  },
+                  {
+                    "pro": "Model name: RK601SM Shocktec™ Plus with Contact"
+                  }
+                ]
+              },
+              {
+                "name": "VITRON™ PLUS ACOUSTIC GLASS BREAK DETECTORS",
+                "img": "Picture/home/homeburglar/product3.jpg",
+                "alt": "VITRON™ PLUS ACOUSTIC GLASS BREAK DETECTORS",
+                "property": [
+                  {
+                    "pro": "Flush, wall or ceiling mount"
+                  },
+                  {
+                    "pro": "Provides reliable perimeter glass break detection"
+                  },
+                  {
+                    "pro": "Detects breakage of all glass types: plate, tempered, laminated and wired"
+                  },
+                  {
+                    "pro": "Microprocessor-based Dual Frequency Pattern Recognition"
+                  },
+                  {
+                    "pro": "9 m (30 ’) range with omni-directional microphone"
+                  },
+                  {
+                    "pro": "Dead microphone supervision"
+                  },
+                  {
+                    "pro": "Remote test without opening unit"
+                  }
+                ]
+              },
+              {
+                "name": "INDUSTRIAL LUNAR™",
+                "img": "Picture/home/homeburglar/product4.jpg",
+                "alt": "INDUSTRIAL LUNAR™",
+                "property": [
+                  {
+                    "pro": "Coverage: 360° by 18m (60’) diameter: Coverage pattern consists of 192 fingers (96 Fresnel facets) divided into 3 lens sections. Each lens section has 4 vertical positions for variable mounting height and customized coverage."
+                  },
+                  {
+                    "pro": "Variable Mounting Height: From 2.7m to 8.6m (9’ to 28') 4 lens positions according to installation height."
+                  },
+                  {
+                    "pro": "Intruder Detection Method: Dual Technology (PIR+MW) with Anti-Cloak™ Technology"
+                  },
+                  {
+                    "pro": "Anti-Mask: 3 Active IR channels"
+                  },
+                  {
+                    "pro": "Maximum 40mA with all LEDs on"
+                  }
+                ]
+              },
+              {
+                "name": "Glass break detector",
+                "img": "Picture/home/homeburglar/product5.jpg",
+                "alt": "Glass break detector",
+                "property": [
+                  {
+                    "pro": "Detected by the sound of broken glass, so it is not False Alarm from vibration."
+                  },
+                  {
+                    "pro": "Compatible with normal glass, Temper and Laminate."
+                  },
+                  {
+                    "pro": "With anti-dismantling switch (Temper Switch)"
+                  },
+                  {
+                    "pro": "battery Lithium CR123A"
+                  }
+                ]
+              },
+              {
+                "name": "Wireless motion detector + camera EYEWAVE",
+                "img": "Picture/home/homeburglar/product6.jpg",
+                "alt": "Wireless motion detector + camera EYEWAVE",
+                "property": [
+                  {
+                    "pro": "The latest innovation that detects intrusion while sending images to a smartphone. (iphone/Android)"
+                  },
+                  {
+                    "pro": "Order to take pictures from your mobile phone"
+                  },
+                  {
+                    "pro": "Can take pictures at night or in the dark."
+                  },
+                  {
+                    "pro": "Two frequency bands distinguish between the transmission signal and the intrusion detection signal."
+                  },
+                  {
+                    "pro": "Two CR1234 x 2 batteries can shoot 2,000 times or about 3 years * (calculated from average usage 2 times / day)."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "servicestitle": "CCTV",
+            "img": "Picture/cctv3.jpg",
+            "alt": "cctv",
+            "descrition": "CCTV (Closed Circuit Television System) is a recording system. The movement was captured by the surveillance cameras. That have been installed in various areas To the recorder (DVR) and the image receiver view, which is called the monitor (Monitor) and recorded to the recorder. It is a system for security purposes or for incident surveillance or Various situations",
+            "product": [
+              {
+                "name": "CCTV Hikvision DS-2CD2021G1-I",
+                "img": "Picture/cctv/product1.jpg",
+                "alt": "CCTV Hikvision DS-2CD2021G1-I",
+                "property": [
+                  {
+                    "pro": "1/2.7″ Progressive Scan CMOS"
+                  },
+                  {
+                    "pro": "1920 × 1080 @30fps"
+                  },
+                  {
+                    "pro": "8/4/6 mm fixed lens"
+                  },
+                  {
+                    "pro": "Backlight Compensation"
+                  },
+                  {
+                    "pro": "3D Digital Noise Reduction"
+                  },
+                  {
+                    "pro": "Digital Wide Dynamic Range"
+                  }
+                ]
+              },
+              {
+                "name": "CCTV Hikvision DS-2CD1123G0E-I",
+                "img": "Picture/cctv/product2.jpg",
+                "alt": "CCTV Hikvision DS-2CD1123G0E-I",
+                "property": [
+                  {
+                    "pro": "1/2.8″ progressive scan CMOS"
+                  },
+                  {
+                    "pro": "3D DNR"
+                  },
+                  {
+                    "pro": "1920 × 1080@30fps"
+                  },
+                  {
+                    "pro": "Up to 30 m IR range"
+                  },
+                  {
+                    "pro": "2.8 mm/4 mm fixed lens"
+                  },
+                  {
+                    "pro": "IP67, IK10"
+                  }
+                ]
+              },
+              {
+                "name": "CCTV Hikvision DS-2CD1023G0E-I",
+                "img": "Picture/cctv/product3.jfif",
+                "alt": "CCTV Hikvision DS-2CD1023G0E-I",
+                "property": [
+                  {
+                    "pro": " 1/2.8 Progressive SCAN CMOS"
+                  },
+                  {
+                    "pro": "1920 x 1080 @ 30fps"
+                  },
+                  {
+                    "pro": "3D DNR , Up to 30 m IR range"
+                  },
+                  {
+                    "pro": "2.8 mm./4 mm. fixed lens , IP67"
+                  }
+                ]
+              },
+              {
+                "name": "CCTV HikVision รุ่น  DS-2CE16D0T-IR",
+                "img": "Picture/cctv/product4.jpg",
+                "alt": "CCTV HikVision รุ่น  DS-2CE16D0T-IR",
+                "property": [
+                  {
+                    "pro": "2 Megapixel high-performance CMOS"
+                  },
+                  {
+                    "pro": "Analog HD output, up to 1080P resolution"
+                  },
+                  {
+                    "pro": "True Day/Night"
+                  },
+                  {
+                    "pro": "Smart IR"
+                  },
+                  {
+                    "pro": " Up to 20m IR distance"
+                  },
+                  {
+                    "pro": "IP66 weatherproof"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "img": "Picture/office3.jpg",
+        "alt": "securityforoffice",
+        "textheader": "Office and organization",
+        "descriptionheader": "Safety system for",
+        "title": "Safety system for Office and organization",
+        "descrition": "All Solutions Tech Co., Ltd. provides consultation and installation of CCTV system, parking system, fire alarm system. And fingerprint scanner",
+        "services": [
+          {
+            "servicestitle": "CCTV",
+            "img": "Picture/cctv2.jpg",
+            "alt": "cctv",
+            "descrition": "CCTV (Closed Circuit Television System) is a recording system. The movement was captured by the surveillance cameras. That have been installed in various areas To the recorder (DVR) and the image receiver view, which is called the monitor (Monitor) and recorded to the recorder. It is a system for security purposes or for incident surveillance or Various situations",
+            "product": [
+              {
+                "name": "CCTV brand HIP model CMVR1",
+                "img": "Picture/cctv/product5.jfif",
+                "alt": "CCTV brand HIP model CMVR1",
+                "property": [
+                  {
+                    "pro": "Camera IP 1.3MP"
+                  },
+                  {
+                    "pro": "360 degree view wifi system"
+                  },
+                  {
+                    "pro": "Can be used for both Lan cable and the existing wifi signal at home"
+                  },
+                  {
+                    "pro": "Installed on the ceiling, can be seen around the room. Can rotate left and right 360 degrees with built-in mic and speakers"
+                  },
+                  {
+                    "pro": "Cameras can interact with each other through the Internet and view images online on mobile phones."
+                  },
+                  {
+                    "pro": "Support up to 32G, record by yourself, no recorder needed. You can watch back online on your hand or computer."
+                  },
+                  {
+                    "pro": "Infrared, visible in the dark 5-10 meters."
+                  }
+                ]
+              },
+              {
+                "name": "CCTV HikVision model DS-2CD2385FWD-I",
+                "img": "Picture/cctv/product6.jpg",
+                "alt": "CCTV HikVision model DS-2CD2385FWD-I",
+                "property": [
+                  {
+                    "pro": "Up to 8 megapixel high resolution"
+                  },
+                  {
+                    "pro": "Max. 3840 × 2160@20fps"
+                  },
+                  {
+                    "pro": "2.8 mm/4 mm/6 mm/8 mm/12 mm fixed lens, optional"
+                  },
+                  {
+                    "pro": "120dB Wide Dynamic Range"
+                  },
+                  {
+                    "pro": "3D Digital Noise Reduction"
+                  },
+                  {
+                    "pro": "DC12V & PoE (802.3af)"
+                  },
+                  {
+                    "pro": "IR range: up to 30m"
+                  },
+                  {
+                    "pro": "Support on-board storage, up to 128 GB"
+                  }
+                ]
+              },
+              {
+                "name": "CCTV AVTECH AVM542B",
+                "img": "Picture/cctv/product7.jpg",
+                "alt": "CCTV AVTECH AVM542B",
+                "property": [
+                  {
+                    "pro": "3-axis mechanism for flexible ceiling and wall-mount installation"
+                  },
+                  {
+                    "pro": "MicroSD card support (up to 64GB) for video storage"
+                  },
+                  {
+                    "pro": "External alarm I/O device connection"
+                  },
+                  {
+                    "pro": "POE (Power-over-Ethernet) support to eliminate the use of power cables andreduce installation costs"
+                  },
+                  {
+                    "pro": "ONVIF standard supported to simplify system integration"
+                  },
+                  {
+                    "pro": "IK10 rated, vandal-resistant case to withstand attempts to open or damage the camera"
+                  }
+                ]
+              },
+              {
+                "name": "Bosch CCTV model NDE-4502-AL",
+                "img": "Picture/cctv/product8.jpg",
+                "alt": "Bosch CCTV model NDE-4502-AL",
+                "property": [
+                  {
+                    "pro": "Resolution 2MP"
+                  },
+                  {
+                    "pro": "Lens 3-10mm"
+                  },
+                  {
+                    "pro": "System support H.265"
+                  },
+                  {
+                    "pro": "standard IP66"
+                  },
+                  {
+                    "pro": "Infrared distance 30 meters"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "servicestitle": "Car Park System",
+            "img": "Picture/solution/carpark1.jpg",
+            "alt": "Car Park System",
+            "descrition": "Car Park System It is a system that will increase safety. To the parking space And large buildings Comfortable to use View images through the monitor to be clear, detailed, fast, accurate and can detect many types of license plates from sedans, pickup trucks and trucks.",
+            "product": [
+              {
+                "name": "Automobile barrier system CMHD363 and CMHD366",
+                "img": "Picture/carpark/product1.jfif",
+                "alt": "Automobile barrier system CMHD363 and CMHD366",
+                "property": [
+                  {
+                    "pro": "There is a system to prevent damage from hitting the barrier."
+                  },
+                  {
+                    "pro": "Automatic car barrier body made of steel"
+                  },
+                  {
+                    "pro": "Factory plating and paint are more durable. The motor is strong and durable."
+                  },
+                  {
+                    "pro": "The mechanism for lifting the wood up and down has a sensor to control."
+                  }
+                ]
+              },
+              {
+                "name": "HIP car barrier CMB 3061/3063/3066",
+                "img": "Picture/carpark/product2.jpg",
+                "alt": "HIP car barrier CMB 3061/3063/3066",
+                "property": [
+                  {
+                    "pro": "The length of the barrier is 3 -6 meters."
+                  },
+                  {
+                    "pro": "Opening speed 1.5-6 seconds according to the length of the stick."
+                  },
+                  {
+                    "pro": "3 meter barrier arm round arm (Swing Out)"
+                  },
+                  {
+                    "pro": "Models 4 and 6 meters, 8-sided, made of aluminum alloy"
+                  },
+                  {
+                    "pro": "Motor power 90 Watt 220 V."
+                  },
+                  {
+                    "pro": "Motor rotation rate 1400 r / min"
+                  },
+                  {
+                    "pro": "IP55 protection standard"
+                  },
+                  {
+                    "pro": "Cabinet size 348 x 268 x 1050 mm."
+                  }
+                ]
+              },
+              {
+                "name": "Automobile barrier system CMHD053 and CMHD056",
+                "img": "Picture/carpark/product3.jpg",
+                "alt": "Automobile barrier system CMHD053 and CMHD056",
+                "property": [
+                  {
+                    "pro": "There is a barrier that adds a rubber edge to cushion."
+                  },
+                  {
+                    "pro": "Comes with LED lights, clearly visible."
+                  },
+                  {
+                    "pro": "LED screen shows the operation of the machine."
+                  },
+                  {
+                    "pro": "Comes with a protective shockproof rubber barrier."
+                  },
+                  {
+                    "pro": "An unexpected event barrier added."
+                  },
+                  {
+                    "pro": "Of shockproof rubber and built-in LED light"
+                  },
+                  {
+                    "pro": "There is a design that is different from the market."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "servicestitle": "Metal detector gate Walkthrough",
+            "img": "Picture/walkthrough/product4.jpg",
+            "alt": "Walkthrough",
+            "descrition": "Today, sabotage is a terrible threat. It caused a lot of life and property loss. Places that are at risk of being targeted include airports, courts, prisons, armory, banks, embassies, parliament Government agencies, power plants, oil depots, communication stations or Mae Jae, high-rise buildings Is in a network that has a high risk as well Therefore, such a place is necessary. That has to be a security system. Who entered a special period Things to be aware of whether explosives, weapons, knives, guns, sharp objects. Verification is required. If the agency Your facility already It can damage both life and property. Including the reputation",
+            "product": [
+              {
+                "name": "Metal detector Walkthrough metal detector gate CMZ2202",
+                "img": "Picture/walkthrough/product1.jpg",
+                "alt": "Metal detector Walkthrough metal detector gate CMZ2202",
+                "property": [
+                  {
+                    "pro": "In Door installation condition"
+                  },
+                  {
+                    "pro": "Display notification result 9,999 (times)"
+                  },
+                  {
+                    "pro": "220 V AC power"
+                  }
+                ]
+              },
+              {
+                "name": "Metal detector Metal detector gate Walkthrough CMZ2200",
+                "img": "Picture/walkthrough/product2.jpg",
+                "alt": "Metal detector Metal detector gate Walkthrough CMZ2200",
+                "property": [
+                  {
+                    "pro": "In Door installation condition"
+                  },
+                  {
+                    "pro": "LCD screen 5.7 (inch)"
+                  },
+                  {
+                    "pro": "Display the result of counting people 9,999 (people)"
+                  },
+                  {
+                    "pro": "Set frequency 1-50 (KHz)"
+                  },
+                  {
+                    "pro": "220 V AC power"
+                  }
+                ]
+              },
+              {
+                "name": "Metal detector Walk through metal detector gate CMC600T",
+                "img": "Picture/walkthrough/product3.jpg",
+                "alt": "Metal detector Walk through metal detector gate CMC600T",
+                "property": [
+                  {
+                    "pro": "6 independent metal detection regions with LCD Screen"
+                  },
+                  {
+                    "pro": "Body Temperture detection"
+                  },
+                  {
+                    "pro": "Alarm temperature setting"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "servicestitle": "Fire alarm system",
+            "img": "Picture/solution/firealam.jpg",
+            "alt": "firealam",
+            "descrition": "Fire Alarm System Is a system for alerting when there is a fire Or the fire in the building Using different kinds of sensors or detectors As appropriate, such as a smoke detector (Smoke Detector), heat detector (Heat Detector), fire alarm equipment by the user (Manual Pull Station or Manual Call Point), etc., which this fire alarm system will Allowing people in the building to be recognized and corrected in a timely manner Prevent the fire from spreading beyond control. ",
+            "product": [
+              {
+                "name": "Thermal detector model CL-181",
+                "img": "Picture/firealam/product1.jpg",
+                "alt": "Thermal detector model CL-181",
+                "property": [
+                  {
+                    "pro": "Detect heat, constant temperature 70 degrees Celsius"
+                  },
+                  {
+                    "pro": "The material is white heat resistant plastic."
+                  },
+                  {
+                    "pro": "Consumes power when doing alarms 60 mA"
+                  },
+                  {
+                    "pro": "There is a LED light indicating the working status."
+                  },
+                  {
+                    "pro": "Status when alarming is red LED light on."
+                  }
+                ]
+              },
+              {
+                "name": "Charcoal smoke device",
+                "img": "Picture/firealam/product3.jpg",
+                "alt": "Charcoal smoke device",
+                "property": [
+                  {
+                    "pro": "Smoke detectors Without wiring and without connecting to any system control cabinet"
+                  },
+                  {
+                    "pro": "Detect smoke using a beam (Photoelectric Technology) to detect"
+                  },
+                  {
+                    "pro": "It is safe, not vulnerable to radioactivity as (Ionization Technology)."
+                  },
+                  {
+                    "pro": "There is a chamber, a single point smoke capture chamber."
+                  },
+                  {
+                    "pro": "It can detect smoke both visible and invisible."
+                  },
+                  {
+                    "pro": "Able to detect smoke covering an area of up to 60 square meters in an area of up to 4 meters."
+                  }
+                ]
+              },
+              {
+                "name": "Bosch FPC-500 fire alarm system",
+                "img": "Picture/firealam/product2.jpg",
+                "alt": "Bosch FPC-500 fire alarm system",
+                "property": [
+                  {
+                    "pro": "Looks precious, stylish - easy to use. To the general public"
+                  },
+                  {
+                    "pro": "It is the smallest system that is easy to use and install."
+                  },
+                  {
+                    "pro": "The LCD screen displays English characters."
+                  },
+                  {
+                    "pro": "It can be divided into 2, 4 or 8 zones and can be attached to a maximum of 64, 128 or 256 detectors."
+                  },
+                  {
+                    "pro": "Terminal straddle device is an optional EOL module (EN 54-13 requirement)."
+                  }
+                ]
+              },
+              {
+                "name": "Fire protection system Vigilant",
+                "img": "Picture/firealam/product8.jpg",
+                "alt": "Fire protection system Vigilant",
+                "property": [
+                  {
+                    "pro": "GE brand fire alarm system is a brand from The United States of America (U.S.A.) is a Vigilant series developed for centralization in networking. It is developed from the original EST (EDWARDS) series, which is a very well-known brand. And have installed With a large number of equipment applications With the good quality of the work system And equipment for working at It has been certified to meet NFPA requirements such as UL and FM by GE brand fire alarm system. And install fire protection To suit various buildings"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "servicestitle": "Fingerprint scanner",
+            "img": "Picture/fingerscan/fingerscan.png",
+            "alt": "Fingerprint scanner",
+            "descrition": "This fingerprint scanning technology, known as biometrics (Biomatrics), combines biological technology with computer technology. To be used for identifying that person (Identification), which identifies today there are many methods that are very popular and used, including fingerprint (Fingerprint), palm print, face (Face), iris (Iris), DNA (DNA) or even the pattern. Voice cents when these data are compared against the feature data previously recorded in the database. Can distinguish that person from other people",
+            "product": [
+              {
+                "name": "Fingerprint scanner HIP Ci806u",
+                "img": "Picture/fingerscan/product1.jpg",
+                "alt": "Fingerprint scanner HIP Ci806u",
+                "property": [
+                  {
+                    "pro": "Supporting 3,000 fingerprints"
+                  },
+                  {
+                    "pro": "Keeps records of 100,000 entries and exits"
+                  },
+                  {
+                    "pro": "Support id card"
+                  },
+                  {
+                    "pro": "Connect via land system, usb flash drive"
+                  },
+                  {
+                    "pro": "Thai / English menu"
+                  },
+                  {
+                    "pro": "Voice response in Thai"
+                  },
+                  {
+                    "pro": "Able to set the time to open and close the door (by connecting to the program via computer)"
+                  }
+                ]
+              },
+              {
+                "name": "Fingerprint scanner HIP Ci F69TS Touch",
+                "img": "Picture/fingerscan/product3.jpg",
+                "alt": "Fingerprint scanner HIP Ci F69TS Touch",
+                "property": [
+                  {
+                    "pro": "4.3 TFT color touch screen"
+                  },
+                  {
+                    "pro": "3,000 User"
+                  },
+                  {
+                    "pro": "3,000 Face (10,000 Finger & 3,000 ID Card)"
+                  },
+                  {
+                    "pro": "200,000 Record"
+                  },
+                  {
+                    "pro": "TCP/IP, USB, U disk download"
+                  },
+                  {
+                    "pro": "ID Card"
+                  },
+                  {
+                    "pro": "Access Control"
+                  }
+                ]
+              },
+              {
+                "name": "Fingerprint scanner HIP Ci P66S",
+                "img": "Picture/fingerscan/product2.jfif",
+                "alt": "Fingerprint scanner HIP Ci P66S",
+                "property": [
+                  {
+                    "pro": "1,000 Face (1,000 Finger & Plam 2,000 Plan)"
+                  },
+                  {
+                    "pro": "Can store 200,000 entries and exits"
+                  },
+                  {
+                    "pro": "2.8 TFT Graphic Interface"
+                  },
+                  {
+                    "pro": "TCP/IP,USB,U disk download"
+                  },
+                  {
+                    "pro": "ID Card"
+                  }
+                ]
+              },
+              {
+                "name": "Fingerprint scanner CMI880",
+                "img": "Picture/fingerscan/product4.jpg",
+                "alt": "Fingerprint scanner CMI880",
+                "property": [
+                  {
+                    "pro": "Supports fingerprints 100,000 fingerprints"
+                  },
+                  {
+                    "pro": "New screen 3.5 inch TFT Touch Screen newest"
+                  },
+                  {
+                    "pro": "Support USB to retrieve data"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "textheader": "Factories and large businesses",
+        "descriptionheader": "Safety system for",
+
+        "img": "Picture/factory2.jpg",
+        "alt": "securityforfactory",
+        "title": "Safety system for Factories and large businesses",
+        "descrition": "All Solutions Tech Company Limited Consulting and installation of CCTV systems. Fire alarm system And parking system",
+        "services": [
+          {
+            "servicestitle": "IP CAMERA",
+            "img": "Picture/cctv.jpg",
+            "alt": "cctv",
+            "descrition": " Internet Protocol Camera Is a surveillance camera that integrates features of the Web Server in the camera (Similar to bringing some of the capabilities of a computer packed into a surveillance camera) to be able to View live images on the internet or network. Which users can View images from a distance for security and surveillance in homes, offices, factories, shopping malls, etc. IP Camera is available both wired and Wireless.",
+            "product": [
+              {
+                "name": "CCTV AVTECH AVM583",
+                "img": "Picture/cctv/product9.jpg",
+                "alt": "CCTV AVTECH AVM583",
+                "property": [
+                  {
+                    "pro": "Zoom lens of f4.7 ~ 94mm with 20x optical zoom, 16x digital zoom and auto focus, suitable for various monitoring environments"
+                  },
+                  {
+                    "pro": "MicroSD card support (up to 64GB) for video storage"
+                  },
+
+                  {
+                    "pro": "External alarm I/O device connection"
+                  },
+                  {
+                    "pro": "POE (Power-over-Ethernet) support to eliminate the use of power cables and reduce installation costs"
+                  },
+                  {
+                    "pro": "ONVIF ( ) standard supported to simplify system integration"
+                  },
+                  {
+                    "pro": "WDR to increase image recognizability in overexposure and dark areas"
+                  }
+                ]
+              },
+              {
+                "name": "CCTV KENPRO Model KP-IP622X-1080P",
+                "img": "Picture/cctv/product12.png",
+                "alt": "CCTV KENPRO Model KP-IP622X-1080P",
+                "property": [
+                  {
+                    "pro": " Exterior speed dome camera(IP Camera)"
+                  },
+                  {
+                    "pro": "2 million pixels 1080P (1920x1080) pixel resolution"
+                  },
+                  {
+                    "pro": "Infrared distance: 150 meters"
+                  },
+                  {
+                    "pro": "Focus range 5-90 mm"
+                  },
+
+                  {
+                    "pro": "Optical Focus 22X"
+                  },
+                  {
+                    "pro": "Roatation Range Horizontal 360° unlimited rotation, Vertical 90° , auto reversal"
+                  },
+                  {
+                    "pro": "Dust and water protection IP66"
+                  }
+                ]
+              },
+              {
+                "name": "CCTV AVTECH AVM571P",
+                "img": "Picture/cctv/product10.jpg",
+                "alt": "CCTV AVTECH AVM571P",
+                "property": [
+                  {
+                    "pro": "Zoom lens of f6.0 ~ 60mm with 10x optical zoom, 16x digital zoom and auto focus, suitable for various monitoring environments"
+                  },
+                  {
+                    "pro": "WDR to increase image recognizability in overexposure and dark areas"
+                  },
+                  {
+                    "pro": "POE (Power-over-Ethernet) support to eliminate the use of power cables and reduce installation costs"
+                  },
+                  {
+                    "pro": "External alarm I/O device connection"
+                  },
+
+                  {
+                    "pro": "ONVIF ( ) standard supported to simplify system integration"
+                  }
+                ]
+              },
+              {
+                "name": "CCTV AVTECH AVM561P",
+                "img": "Picture/cctv/product11.jpg",
+                "alt": "CCTV AVTECH AVM561P",
+                "property": [
+                  {
+                    "pro": "Sharpness level HD 1080p"
+                  },
+                  {
+                    "pro": "Use a lens Vari-focal"
+                  },
+                  {
+                    "pro": "Can zoom up to 10X"
+                  },
+                  {
+                    "pro": "There is an infrared lamp, can be seen in the dark."
+                  },
+
+                  {
+                    "pro": "System support iPhone/iPad/Android"
+                  },
+                  {
+                    "pro": "System support POE"
+                  },
+                  {
+                    "pro": "System support ONVIF"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "servicestitle": "SMART FIRE ALARM",
+            "img": "Picture/smartfirealarm.jpg",
+            "alt": "smartfirealarm",
+            "descrition": "General fire alarm system, if SMART FIRE ALARM system has been upgraded, it will be able to alert the supervisors at any time. By providing notification via the application on the smartphone, which can tell which zone and what area is the fire incident, can also be applied as an anti-theft system. Alert if there is an intrusion in different zones on the smartphone, increasing the safety and preventing damage for the operator effectively. SMART FIRE ALARM system can also save energy. Control appliances Air conditioner Lighting system to suit the area where employees can work as well. SMART FIRE ALARM system can be used in conjunction with the original anti-theft alarm. Suitable for factories, warehouses, office buildings and large buildings",
+            "product": [
+              {
+                "name": "Fire alarm system Chung-Mei",
+                "img": "Picture/firealam/product4.jpg",
+                "alt": "Fire alarm system Chung-Mei",
+                "property": [
+                  {
+                    "pro": "The Control Panel consists of a circuit that monitors the operation of detectors in each zone with a monitor circuit. Operation whether it is a Short Circuit or Open Circuit, it will show various status of the system on the display panel on the front of the system"
+                  },
+                  {
+                    "pro": "The system is monitoring the battery operation and the battery charge so that it is always ready to use. As well as monitor the operation of the battery that is still available or not."
+                  },
+                  {
+                    "pro": "The system has a test button. The work of each circuit is still working normally or not. In order to facilitate the maintenance"
+                  },
+                  {
+                    "pro": "The system has a Key Lock button to prevent accidental wrong pressing of the Touch Screen button. In order not to affect the operation of the system."
+                  },
+                  {
+                    "pro": "Control Panel cabinet will show the operating status of the main system equipment, whether it is a light The work of each zone, Power Supply and other critical state of the system to be able to know Does the system still work normally?"
+                  }
+                ]
+              },
+              {
+                "name": "Fire protection system control cabinet SFP-2402(E)",
+                "img": "Picture/firealam/product5.gif",
+                "alt": "Fire protection system control cabinet SFP-2402(E)",
+                "property": [
+                  {
+                    "pro": "SFP-2402 (E) Conventional - Hard-Wire Fire Protection Cabinet with 2 zones for the detector and 1 zone for the alarm device Fire Alarm Control Panel - Conventional 2 Detector Zone, 1 Alarm Bell Zone."
+                  }
+                ]
+              },
+              {
+                "name": "Fire protection system CL-9600",
+                "img": "Picture/firealam/product6.jpg",
+                "alt": "Fire protection system CL-9600",
+                "property": [
+                  {
+                    "pro": "Control cabinet for conventional fire protection system (Conventional or Hard-Wire), available in 5 zones to 80 zones, within 1 zone can connect 25 Smoke Detector devices to an unlimited number of Heat Detector devices and Able to check cables with connected devices in the system With 24 Volt battery Conventional Fire Alarm Control Panel 5 - 80 Detector Zone, 1 Alarm Bell Zone"
+                  }
+                ]
+              },
+              {
+                "name": "Explosion proof device EX",
+                "img": "Picture/firealam/product7.jpg",
+                "alt": "Explosion proof device EX",
+                "property": [
+                  {
+                    "pro": "GE brand fire alarm system is a brand from the United States (U.S.A.), which is a very famous brand. And have installed With a large number of equipment applications With good quality Of the working system And accessories to work at Compliant with NFPA requirements such as UL and FM, the Notifier brand fire alarm system has various equipment systems. To choose to design the system And install the system To prevent fire to suit many buildings"
+                  }
+                ]
+              },
+              {
+                "name": "Fire protection system Vigilant",
+                "img": "Picture/firealam/product8.jpg",
+                "alt": "Fire protection system Vigilant",
+                "property": [
+                  {
+                    "pro": "GE brand fire alarm system is a brand from The United States of America (U.S.A.) is a Vigilant series developed for centralization in networking. It is developed from the original EST (EDWARDS) series, which is a very well-known brand. And have installed With a large number of equipment applications With the good quality of the work system And equipment for working at It has been certified to meet NFPA requirements such as UL and FM by GE brand fire alarm system. And install fire protection To suit various buildings"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "servicestitle": "Car Park System",
+            "img": "Picture/solution/carpark1.jpg",
+            "alt": "Car Park System",
+            "descrition": "Car Park System It is a system that will increase safety. To the parking space And large buildings Comfortable to use View images through the monitor to be clear, detailed, fast, accurate and can detect many types of license plates from sedans, pickup trucks and trucks.",
+            "product": [
+              {
+                "name": "Automobile barrier system CMHD363 and CMHD366",
+                "img": "Picture/carpark/product1.jfif",
+                "alt": "Automobile barrier system CMHD363 and CMHD366",
+                "property": [
+                  {
+                    "pro": "There is a system to prevent damage from hitting the barrier."
+                  },
+                  {
+                    "pro": "Automatic car barrier body made of steel"
+                  },
+                  {
+                    "pro": "Factory plating and paint are more durable. The motor is strong and durable."
+                  },
+                  {
+                    "pro": "The mechanism for lifting the wood up and down has a sensor to control."
+                  }
+                ]
+              },
+              {
+                "name": "HIP car barrier CMB 3061/3063/3066",
+                "img": "Picture/carpark/product2.jpg",
+                "alt": "HIP car barrier CMB 3061/3063/3066",
+                "property": [
+                  {
+                    "pro": "The length of the barrier is 3 -6 meters."
+                  },
+                  {
+                    "pro": "Opening speed 1.5-6 seconds according to the length of the stick."
+                  },
+                  {
+                    "pro": "3 meter barrier arm round arm (Swing Out)"
+                  },
+                  {
+                    "pro": "Models 4 and 6 meters, 8-sided, made of aluminum alloy"
+                  },
+                  {
+                    "pro": "Motor power 90 Watt 220 V."
+                  },
+                  {
+                    "pro": "Motor rotation rate 1400 r / min"
+                  },
+                  {
+                    "pro": "IP55 protection standard"
+                  },
+                  {
+                    "pro": "Cabinet size 348 x 268 x 1050 mm."
+                  }
+                ]
+              },
+              {
+                "name": "Automobile barrier system CMHD053 and CMHD056",
+                "img": "Picture/carpark/product3.jpg",
+                "alt": "Automobile barrier system CMHD053 and CMHD056",
+                "property": [
+                  {
+                    "pro": "There is a barrier that adds a rubber edge to cushion."
+                  },
+                  {
+                    "pro": "Comes with LED lights, clearly visible."
+                  },
+                  {
+                    "pro": "LED screen shows the operation of the machine."
+                  },
+                  {
+                    "pro": "Comes with a protective shockproof rubber barrier."
+                  },
+                  {
+                    "pro": "An unexpected event barrier added."
+                  },
+                  {
+                    "pro": "Of shockproof rubber and built-in LED light"
+                  },
+                  {
+                    "pro": "There is a design that is different from the market."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "servicestitle": "Automatic sliding fence",
+            "img": "Picture/autodoor/product5.jpg",
+            "alt": "Automatic sliding fence",
+            "descrition": "Automatic door system that has been recognized as It has stability and stability. In working height Made of strong material, it can withstand the sun, rain and wind at storm level. Because it is normally used in countries with many flood problems. Comes with technology to prevent collisions with objects such as cars or people. The work of the motor system. It has a smooth sliding door panel that looks beautiful under the strength of Door material frame It also provides protection against intruders trying to climb over. The door will have a Sensor Alarm system to alert that someone is trying to break in immediately Which allows you to fully rely on HIP Auto Gate applications",
+            "product": [
+              {
+                "name": "Automatic sliding fence CM-GX01S",
+                "img": "Picture/autodoor/product1.jpg",
+                "alt": "Automatic sliding fence CM-GX01S",
+                "property": [
+                  {
+                    "pro": "Operate easily with Remote Control up to 2,000 points."
+                  },
+                  {
+                    "pro": "Use 304 stainless steel material, ensuring quality and durability."
+                  },
+                  {
+                    "pro": "The wheels are made of PA material, more durable and quieter than steel."
+                  },
+                  {
+                    "pro": "Easy, quick installation, no need to cut the floor."
+                  },
+                  {
+                    "pro": "The Stanless body can be up to 1.8 meters high and made with Zinc Alloy can be up to 2.5 meters high."
+                  },
+                  {
+                    "pro": "Can choose additional dog protection system (Option)"
+                  },
+                  {
+                    "pro": "LED lights can create your own messages with a variety of languages such as Thai, Chinese, English, etc."
+                  },
+                  {
+                    "pro": "With a lifetime warranty on the motor"
+                  }
+                ]
+              },
+              {
+                "name": "Automatic sliding fence CM-HX02S",
+                "img": "Picture/autodoor/product2.jpg",
+                "alt": "Automatic sliding fence CM-HX02S",
+                "property": [
+                  {
+                    "pro": "Operate easily with Remote Control up to 2,000 points."
+                  },
+                  {
+                    "pro": "Use 304 stainless steel material, ensuring quality and durability."
+                  },
+                  {
+                    "pro": "The wheels are made of PA material, more durable and quieter than steel."
+                  },
+                  {
+                    "pro": "Easy, quick installation, no need to cut the floor."
+                  },
+                  {
+                    "pro": "The Stanless body can be up to 1.8 meters high and made with Zinc Alloy can be up to 2.5 meters high."
+                  },
+                  {
+                    "pro": "Can choose additional dog protection system (Option)"
+                  },
+                  {
+                    "pro": "LED lights can create your own messages with a variety of languages such as Thai, Chinese, English, etc."
+                  },
+                  {
+                    "pro": "With a lifetime warranty on the motor"
+                  }
+                ]
+              },
+              {
+                "name": "Automatic sliding fence CM-LX02",
+                "img": "Picture/autodoor/product3.jpg",
+                "alt": "Automatic sliding fence CM-LX02",
+                "property": [
+                  {
+                    "pro": "Operate easily with Remote Control up to 2,000 points."
+                  },
+                  {
+                    "pro": "Use 304 stainless steel material, ensuring quality and durability."
+                  },
+                  {
+                    "pro": "The wheels are made of PA material, more durable and quieter than steel."
+                  },
+                  {
+                    "pro": "Easy, quick installation, no need to cut the floor."
+                  },
+                  {
+                    "pro": "The Stanless body can be up to 1.8 meters high and made with Zinc Alloy can be up to 2.5 meters high."
+                  },
+                  {
+                    "pro": "Can choose additional dog protection system (Option)"
+                  },
+                  {
+                    "pro": "LED lights can create your own messages with a variety of languages such as Thai, Chinese, English, etc."
+                  },
+                  {
+                    "pro": "With a lifetime warranty on the motor"
+                  }
+                ]
+              },
+              {
+                "name": "Automatic sliding fence GM-HX02B",
+                "img": "Picture/autodoor/product4.jpg",
+                "alt": "Automatic sliding fence GM-HX02B",
+                "property": [
+                  {
+                    "pro": "4-way, horizontal probe technology Which performs a complete audit and has reliable performance"
+                  },
+                  {
+                    "pro": "Each compartment of the expandable and retractable material is equipped with PA bush to prevent wear It also eliminates noise during system operation. Stretchable and retractable material is tested for 1 million times at a 45 degree angle and has no damaged parts."
+                  },
+                  {
+                    "pro": "The Connectivity Technology that appears to revolutionize traditional connections. Drill holes to connect to the twisted structure. Making it more strong and durable"
+                  },
+                  {
+                    "pro": "Patented wind protection technology The electronic gate can work normally even in windy conditions. While conventional gate electronics may wobble or roll due to the wind."
+                  },
+                  {
+                    "pro": "The Stanless body can be up to 1.8 meters high and made with Zinc Alloy can be up to 2.5 meters high."
+                  },
+                  {
+                    "pro": "Electronic keys The clutch can be easily changed manually during downtime. The special key is inserted into the clutch lock and rotated 90 degrees."
+                  },
+                  {
+                    "pro": "The spinning wheel has been tested over 300,000 times over 10 meters and shows no wear or tear of any sand or pebbles during rain. Or the storm does not affect the normal operation of the Electronic Gate"
+                  },
+                  {
+                    "pro": "Wiring connections are protected by a well cladding and harmonious with the door."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "home": {
     "section1": {
@@ -52,20 +1298,187 @@
       "button": "See more products",
       "title2": "Which service to choose?",
       "description": "Because there are various safety systems If you can't get started AllSolutionsTech Help you choose a safety system"
-    },
-    "section3": {
-      "title1": "โรงแรมราชพฤกษ์",
-      "title2": "ร้านอาหาร Soshabuki",
-      "title3": "สถาบันการพลศึกษา จ.ชัยภูมิ",
-      "title4": "Advice นครราชสีมา สาขาสืบศิริ",
-      "title5": "LAND & HOUSES",
-      "title6": "สำนักงานประกันสังคม นครราชสีมา",
-      "title7": "กรุงไทย แอกซ่า",
-      "title8": "โรงแรมราชพฤกษ์",
-      "title9": "โรงแรมราชพฤกษ์",
-      "title10": "โรงแรมราชพฤกษ์",
-      "title11": "โรงแรมราชพฤกษ์",
-      "title12": "โรงแรมราชพฤกษ์"
     }
-  }
+  },
+  "customer": [
+    {
+      "img": "https://allweb.co.th/2019/images/customers/cus-24.png",
+      "title": "Rajamangala University of Technology Isan",
+      "descrition": ""
+    },
+    {
+      "img": "https://allweb.co.th/2019/images/customers/cus-38.png",
+      "title": "Suranaree University of Technology",
+      "descrition": ""
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/019.png",
+      "title": "At Maharat Nakhon Ratchasima Hospital",
+      "descrition": "Installation of a fingerprint scanner"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/018.png",
+      "title": "At Suranaree Camp Hospital",
+      "descrition": "Installation of fingerprint scanner, CCTV installation"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-008.png",
+      "title": "Ratchapruek Hotel",
+      "descrition": "Install a CCTV system"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/57-013.png",
+      "title": "Soshabuki Restaurants",
+      "descrition": "Install a CCTV system"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-010.png",
+      "title": "Institute of Physical Education, Chaiyaphum",
+      "descrition": "Install the fingerprint scanner"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/6-003.png",
+      "title": "Advice Nakhon Ratchasima, Suebsiri Branch",
+      "descrition": "Install a CCTV system"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-004.png",
+      "title": "LAND & HOUSES",
+      "descrition": "Install a CCTV system"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-005.png",
+      "title": "Nakhon Ratchasima Social Security Office",
+      "descrition": "Install a fingerprint scanner, banknote counter"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-002.png",
+      "title": "Krungthai AXA",
+      "descrition": "Phone system installation"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-001.png",
+      "title": "JVC",
+      "descrition": "Install CCTV"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-006.png",
+      "title": "Bangkok Hospital Ratchasima",
+      "descrition": "Install the fingerprint scanner"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-009.png",
+      "title": "CP, Roi Et Province, Bueng Kan Province, Yasothon Province",
+      "descrition": "Install CCTV"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-003.png",
+      "title": "Garage Cherdchai",
+      "descrition": "Install CCTV, card reader"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-013.png",
+      "title": "Banharn Polytechnic College, Suphanburi Province",
+      "descrition": "Install 41 CCTV cameras."
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-007.png",
+      "title": "Synchrotron Light Research Institute Ministry of Science and Technology",
+      "descrition": "Install the fingerprint scanner"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-017.png",
+      "title": "Samsung Electro-Mechanics Nakhon Ratchasima Co., Ltd.",
+      "descrition": "Install CCTV"
+    },
+
+    {
+      "img": "http://allsolutionstech.com/media/images/system/7-016.png",
+      "title": "Play La Ploen Boutique Resort",
+      "descrition": "Install CCTV"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/079.png",
+      "title": "Samut Sakhon Insurance Company Limited",
+      "descrition": "Fingerprint scanner installation work"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/082.png",
+      "title": "Nakhon Ratchasima Teacher Saving Cooperative",
+      "descrition": "Installation of automatic telephone system"
+    },
+
+    {
+      "img": "http://allsolutionstech.com/media/images/system/080.png",
+      "title": "Pongkit Ltd., Part.",
+      "descrition": "Install the fingerprint scanner"
+    },
+
+    {
+      "img": "http://allsolutionstech.com/media/images/system/074.png",
+      "title": "Chokwiwat Property Co., Ltd.",
+      "descrition": "Install a CCTV camera, scan the fingerprint."
+    },
+
+    {
+      "img": "http://allsolutionstech.com/media/images/system/077.png",
+      "title": "Mata House ",
+      "descrition": "Install CCTV"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/084.png",
+      "title": "At Punjadara Hotel",
+      "descrition": "PABX system improvement work"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/050.png",
+      "title": "At K Inn Hotel",
+      "descrition": "Installation of anti-theft alarm, CCTV installation"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/016.png",
+      "title": "At Jomsurang Hotel",
+      "descrition": "Installation of telephone booths"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/093.png",
+      "title": "At Sima HALCare Co., Ltd.",
+      "descrition": "Installation of a fingerprint scanner"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/012.png",
+      "title": "At the school tutoring ECC at The mall Korat",
+      "descrition": "Installation of a fingerprint scanner"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/087.png",
+      "title": "At Sung Noen Hospital",
+      "descrition": "Installation of a fingerprint scanner, installation of a watch guard"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/014.png",
+      "title": "At Phimai Hospital",
+      "descrition": ""
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/007.png",
+      "title": "At Siam Nissan Mother Sale",
+      "descrition": "Installation of a fingerprint scanner"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/046.png",
+      "title": "At Wararom Ville Village",
+      "descrition": "Installation of a fingerprint scanner"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/008.png",
+      "title": "At Rommai Plaitawan Resort",
+      "descrition": "Internet Wifi installation work"
+    },
+    {
+      "img": "http://allsolutionstech.com/media/images/system/058.png",
+      "title": "At the Nakhon Ratchasima Women's Correctional Institution",
+      "descrition": "Install antivirus Nod32"
+    }
+  ]
 }

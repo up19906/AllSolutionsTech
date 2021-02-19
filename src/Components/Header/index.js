@@ -14,10 +14,10 @@ export default function Header() {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (language) => {
-    if (language == "en") {
+    if (language === "en") {
       setborderlangEn(true);
       setborderlangTh(false);
-    } else if (language == "th") {
+    } else if (language === "th") {
       setborderlangEn(false);
       setborderlangTh(true);
     }
@@ -114,15 +114,11 @@ export default function Header() {
                 </b>
                 {t("header.Address1")}
                 <br />
-                <i className="fa fa-map-marker" /> <b>{t("header.head2")}</b>
-                <br />
-                {t("header.Address2")}
-                <b />
               </p>
             </li>
             <li>
               <p className="widget">
-                <i class="fa fa-phone"></i> 02-012-3795 / 065-969-3552
+                <i className="fa fa-phone"></i> 02-012-3795 / 065-969-3552
                 <b />
               </p>
             </li>
@@ -174,7 +170,7 @@ export default function Header() {
                       <NavLink
                         activeClassName={`${boldermenu && "active"} `}
                         to="/"
-                        onClick={() => setboldermenu(false)}
+                        onClick={() => setboldermenu(true)}
                       >
                         {t("header.menu1")}
                       </NavLink>

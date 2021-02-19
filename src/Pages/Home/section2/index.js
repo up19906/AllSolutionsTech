@@ -10,20 +10,20 @@ const datasulotion = [
     img: "Picture/home2.jpg",
     title: "title1",
     descrition: " ",
-    href: "/service",
-    alt: "securityforhome",
+    href: "/services#1",
+    alt: "Securityforhome",
   },
   {
     img: "Picture/office3.jpg",
     title: "title2",
-    href: "/service",
-    alt: "securityforoffice",
+    href: "/services#2",
+    alt: "Securityforoffice",
   },
   {
     img: "Picture/factory2.jpg",
     title: "title3",
-    href: "/service",
-    alt: "securityforfactory",
+    href: "/services#3",
+    alt: "Securityforfactory",
   },
 ];
 
@@ -31,31 +31,31 @@ const datas = [
   {
     img: "Picture/solution/cctv.jpg",
     title: " Security System",
-    href: "/printdesign",
+
     alt: "cctv",
   },
   {
     img: "Picture/solution/carpark1.jpg",
     title: "Car Park System",
-    href: "/printdesign",
+
     alt: "carparksystem",
   },
   {
     img: "Picture/solution/firealam.jpg",
     title: "Alarm System Solution",
-    href: "/printdesign",
+
     alt: "firealam",
   },
   {
     img: "Picture/solution/comunity.jpg",
     title: "Communication Solution",
-    href: "/printdesign",
+
     alt: "communitysolution",
   },
   {
     img: "Picture/solution/homoffice.jpg",
     title: "Home & Office Automation",
-    href: "/printdesign",
+
     alt: "homeandofficesolution",
   },
 ];
@@ -84,7 +84,7 @@ export default function Section2() {
               <Row>
                 {datas.map(function (data, i) {
                   return (
-                    <Col>
+                    <Col key={i}>
                       <div data-aos="fade-up">
                         <div className="content-wrapper">
                           <div className="news-card">
@@ -132,9 +132,7 @@ export default function Section2() {
                   <div className="single-profile-back-last">
                     <h3 className="fontthai">{t("home.section2.title1")}</h3>
                     <p className="fontthai">{t("home.section2.detail")}</p>
-                    {/* <a href="#" className="fontthai">
-                      ดูสินค้าเพิ่มเติม »
-                    </a> */}
+
                     <Link
                       to="/services"
                       className="news-card__read-more"
@@ -164,7 +162,6 @@ export default function Section2() {
         <div
           className="section2-bg"
           style={{
-            // margin: "0 50px",
             backgroundImage: "url(Picture/bg3.jpg)",
           }}
         >
@@ -196,7 +193,7 @@ export default function Section2() {
           <Row>
             {datasulotion.map(function (data, i) {
               return (
-                <Col lg={4}>
+                <Col lg={4} key={i}>
                   <div
                     className="news-card"
                     style={{
@@ -205,7 +202,7 @@ export default function Section2() {
                     }}
                   >
                     <Link
-                      to="/services"
+                      to={data.href}
                       className="news-card__card-link"
                     ></Link>
 
@@ -216,15 +213,13 @@ export default function Section2() {
                       className="news-card__image"
                     />
                     <div className="news-card__text-wrapper">
-                      {/* <p className="news-card__excerpt fontthai">
-                        {data.descrition}
-                      </p> */}
+                     
                       <h3 className="news-card__title fontthai">
                         {t("home.section1." + data.title)}
                       </h3>
 
                       <div className="news-card__details-wrapper">
-                        <Link to="/services" className="news-card__read-more">
+                        <Link to={data.href} className="news-card__read-more">
                           {t("home.section1.button")}{" "}
                           <i className="fa fa-arrow-right" />
                         </Link>

@@ -10,12 +10,11 @@ export default function Routes() {
   return (
     <div>
       <ScrollToTop />
+      
       <Switch>
-        <Route exact path="/" component={Home} />
-
-        <Route exact path="/contact" component={Contact} />
         <Route exact path="/services" component={Services} />
-
+        <Route exact path="/" component={Home} />
+        <Route exact path="/contact" component={Contact} />
         <Route exact path="/aboutus" component={Aboutus} />
         <Route exact path="/customer" component={Customer} />
       </Switch>

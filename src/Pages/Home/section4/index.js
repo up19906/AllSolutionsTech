@@ -3,11 +3,10 @@ import "./section4.scss";
 import { Container, Col, Row, Button, Form } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import axios from "axios";
-import { useForm, Controller } from "react-hook-form";
+import { useForm } from "react-hook-form";
 
 export default function Section4() {
-  const { control, handleSubmit } = useForm();
-
+  const { handleSubmit } = useForm();
   const Data = {
     username: "",
     email: "",
@@ -32,8 +31,6 @@ export default function Section4() {
     setFormdata(Data);
     alert("ส่งข้อความสำเร็จ");
   };
-
-  // const [validated, setValidated] = useState(false);
   console.log("submit sucss formData", formdata);
   const { t } = useTranslation();
   return (
@@ -54,20 +51,9 @@ export default function Section4() {
                       <b> {t("header.head1")}</b>
                       <br />
                       {t("header.Address1")}
-                      {/* <br /> 47/316 Poppular Rd., Ban Mai, Pak
-                      Kret, Nonthaburi 11120 */}
-                      <br />
-                      {/* <i
-                        className="fa fa-map-marker"
-                        style={{ marginRight: "5px" }}
-                      />
-                      <b>{t("header.head2")} </b> <br /> {t("header.Address2")}{" "} */}
-                      {/* <br />
-                      3279/25 Suebsiri Rd, T.Nimueng, A.Mueng,
-                      NakhonRatchasima,Thailand 30000 */}
                     </li>
                     <li>
-                      <i class="fa fa-phone" style={{ marginRight: "5px" }}></i>{" "}
+                      <i className="fa fa-phone" style={{ marginRight: "5px" }}></i>{" "}
                       02-012-3795 / 065-969-3552 <br />
                     </li>
                     <li>
@@ -96,7 +82,7 @@ export default function Section4() {
                         onChange={Chagform}
                         value={formdata.username}
                         className="form-control"
-                        placeholder="ชื่อ-นามสกุล"
+                        placeholder={t("contact.name")}
                       />
                     </div>
                     <div className="row  wow fadeInUp animated">
@@ -108,7 +94,7 @@ export default function Section4() {
                             onChange={Chagform}
                             value={formdata.phone}
                             className="form-control"
-                            placeholder="เบอร์โทรศัพท์"
+                            placeholder={t("contact.tel")}
                           />
                         </div>
                       </div>
@@ -120,7 +106,7 @@ export default function Section4() {
                             onChange={Chagform}
                             value={formdata.email}
                             className="form-control"
-                            placeholder="อีเมล"
+                            placeholder={t("contact.email")}
                           />
                         </div>
                       </div>
@@ -133,7 +119,7 @@ export default function Section4() {
                         onChange={Chagform}
                         value={formdata.subject}
                         className="form-control"
-                        placeholder="หัวข้อเรื่อง"
+                        placeholder={t("contact.title")}
                       />
                     </div>
                     <div className="form-group">
@@ -143,12 +129,12 @@ export default function Section4() {
                         value={formdata.content}
                         className="form-control"
                         rows={5}
-                        placeholder="รายละเอียด"
+                        placeholder={t("contact.description")}
                       />
                     </div>
                     <div className="form-group" style={{ textAlign: "right" }}>
                       <Button type="submit" className=" primary-btn">
-                        ส่งข้อความ
+                        {t("contact.submit")}
                       </Button>
                     </div>
                   </Form>

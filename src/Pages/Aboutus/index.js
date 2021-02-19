@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Container, Row, Col } from "react-bootstrap";
 
-export default function PrintDesign() {
+export default function Aboutus() {
   const { t } = useTranslation();
 
   return (
@@ -23,9 +23,7 @@ export default function PrintDesign() {
                   <h2>{t("header.menu4")}</h2>
                   <div className="breadcrumb__links">
                     <Link to="/">{t("header.menu1")}</Link>
-                    {/* <span>
-                      <i class="fa fa-angle-right" aria-hidden="true"></i>
-                    </span> */}
+                   
                     <span>{t("header.menu4")}</span>
                   </div>
                 </div>
