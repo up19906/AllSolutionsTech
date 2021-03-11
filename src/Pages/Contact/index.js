@@ -59,16 +59,16 @@ export default function Contact() {
           <Row>
             <Col lg={6}>
               <div className="contact-padding">
-                <h2>{t("header.menu5")}</h2>
+                <h2>{t("contact.header")}</h2>
                 <ul className="ulcontact" style={{ fontSize: "1rem" }}>
                   <li style={{ padding: "15px 0" }}>
                     <i
                       className="fa fa-map-marker"
                       style={{ marginRight: "5px" }}
                     />
-                    <b>{t("header.head1")}</b>
+                    <b>{t("contact.head1")}</b>
                     <br />
-                    {t("header.Address1")}
+                    {t("contact.Address1")}
 
                     <br />
                   </li>
@@ -77,7 +77,8 @@ export default function Contact() {
                       className="fa fa-phone"
                       style={{ marginRight: "5px" }}
                     ></i>{" "}
-                    02-012-3795 / 065-969-3552 <br />
+                    {t("contact.tel")}
+                    <br />
                   </li>
                   <li>
                     <i
@@ -89,8 +90,7 @@ export default function Contact() {
                       href="mailto:ast.allsolutionstech@gmail.com"
                       className="contact-padding"
                     >
-                      {" "}
-                      ast.allsolutionstech@gmail.com
+                      {t("contact.email")}
                     </a>
                   </li>
                 </ul>
@@ -119,7 +119,7 @@ export default function Contact() {
                           onChange={Chagform}
                           value={formdata.phone}
                           className="form-control"
-                          placeholder={t("contact.tel")}
+                          placeholder={t("contact.tel_form")}
                         />
                       </div>
                     </div>
@@ -131,7 +131,7 @@ export default function Contact() {
                           onChange={Chagform}
                           value={formdata.email}
                           className="form-control"
-                          placeholder={t("contact.email")}
+                          placeholder={t("contact.email_form")}
                         />
                       </div>
                     </div>

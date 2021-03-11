@@ -12,6 +12,7 @@ export default function Header() {
   const [borderlangTh, setborderlangTh] = useState(true);
 
   const { t, i18n } = useTranslation();
+  // const datas = i18next.t("footer.services", { returnObjects: true });
 
   const changeLanguage = (language) => {
     if (language === "en") {
@@ -33,7 +34,7 @@ export default function Header() {
         <Row style={{ textAlign: "center" }}>
           <div className="offcanvas__logo">
             <NavLink to="/" onClick={() => setmenu(false)}>
-              <img className="logo" src="Picture/logo/ast5.png" alt="logo" />
+              <img className="logo" src={t("header.logomobile")} alt="logo" />
             </NavLink>
           </div>
         </Row>
@@ -118,14 +119,14 @@ export default function Header() {
             </li>
             <li>
               <p className="widget">
-                <i className="fa fa-phone"></i> 02-012-3795 / 065-969-3552
+                <i className="fa fa-phone"></i> {t("header.tel")}
                 <b />
               </p>
             </li>
             <li>
               <p className="widget">
                 <i className="fa fa-envelope" />
-                ast.allsolutionstech@gmail.com
+                {t("header.email")}
                 <b />
               </p>
             </li>
@@ -139,11 +140,11 @@ export default function Header() {
             <div className="header-info-left">
               <ul>
                 <li>
-                  <i className="fa fa-phone" /> 02-012-3795 / 065-969-3552
+                  <i className="fa fa-phone" /> {t("header.tel")}
                 </li>
                 <li>
                   <i className="fa fa-envelope" />
-                  ast.allsolutionstech@gmail.com
+                  {t("header.email")}
                 </li>
               </ul>
             </div>
@@ -154,11 +155,7 @@ export default function Header() {
             <Col lg={3} xl={3}>
               <div className="header__logo">
                 <NavLink to="/" onClick={() => setboldermenu(true)}>
-                  <img
-                    className="logo"
-                    src="Picture/logo/ast4.png"
-                    alt="logo"
-                  />
+                  <img className="logo" src={t("header.logo")} alt="logo" />
                 </NavLink>
               </div>
             </Col>

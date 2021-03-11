@@ -40,7 +40,7 @@ export default function Services() {
         <div
           className="hero-service breadcrumb-option set-bg"
           style={{
-            backgroundImage: 'url("Picture/servicesimg/solution2.jpg")',
+            backgroundImage: `url(${t("services.bgServices")})`,
             backgroundPosition: "top center",
           }}
         >
@@ -49,10 +49,10 @@ export default function Services() {
               <div className="col-lg-12 text-center">
                 <div className="bg-text">
                   <div className="breadcrumb__text">
-                    <h2>{t("header.menu2")}</h2>
+                    <h2>{t("services.titleServices")}</h2>
                     <div className="breadcrumb__links">
-                      <Link to="/">{t("header.menu1")}</Link>
-                      <span>{t("header.menu2")}</span>
+                      <Link to="/">{t("services.titleHome")}</Link>
+                      <span>{t("services.titleServices")}</span>
                     </div>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ export default function Services() {
                       width: "65vw",
                     }}
                   >
-                    <p>{t("services.headdescrition")}</p>
+                    <p>{data.descriptionheader}</p>
                     <Row>
                       <Col xs={3} sm={3} md={3} lg={3}>
                         <b />

@@ -4,64 +4,16 @@ import "./testsyle.css";
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-
-const datasulotion = [
-  {
-    img: "Picture/home2.jpg",
-    title: "title1",
-    descrition: " ",
-    href: "/services#1",
-    alt: "Securityforhome",
-  },
-  {
-    img: "Picture/office3.jpg",
-    title: "title2",
-    href: "/services#2",
-    alt: "Securityforoffice",
-  },
-  {
-    img: "Picture/factory2.jpg",
-    title: "title3",
-    href: "/services#3",
-    alt: "Securityforfactory",
-  },
-];
-
-const datas = [
-  {
-    img: "Picture/solution/cctv.jpg",
-    title: " Security System",
-
-    alt: "cctv",
-  },
-  {
-    img: "Picture/solution/carpark1.jpg",
-    title: "Car Park System",
-
-    alt: "carparksystem",
-  },
-  {
-    img: "Picture/solution/firealam.jpg",
-    title: "Alarm System Solution",
-
-    alt: "firealam",
-  },
-  {
-    img: "Picture/solution/comunity.jpg",
-    title: "Communication Solution",
-
-    alt: "communitysolution",
-  },
-  {
-    img: "Picture/solution/homoffice.jpg",
-    title: "Home & Office Automation",
-
-    alt: "homeandofficesolution",
-  },
-];
+import i18next from "i18next";
 
 export default function Section2() {
   const { t } = useTranslation();
+  const datas = i18next.t("home.section2.services_type", {
+    returnObjects: true,
+  });
+  const datasulotion = i18next.t("home.section2.services_package", {
+    returnObjects: true,
+  });
 
   return (
     <>
@@ -74,9 +26,6 @@ export default function Section2() {
       >
         <div className="h-text" style={{ marginBottom: "10vh" }}>
           <h1 className="heading"> {t("home.section2.header")} </h1>{" "}
-          {/* <p>
-            บริษัท ออลล์โซลูชั่นส์เทค จำกัด เรามีงานดีไซน์ที่หลากหลายทันสมัย
-          </p> */}
         </div>
         <Container>
           <Row>
@@ -104,9 +53,6 @@ export default function Section2() {
                               </h3>
 
                               <div className="news-card__details-wrapper">
-                                {/* <p className="news-card__excerpt fontthai">
-                                  {data.descrition}
-                                </p> */}
                                 <Link
                                   to="/services"
                                   className="news-card__read-more"
@@ -213,9 +159,8 @@ export default function Section2() {
                       className="news-card__image"
                     />
                     <div className="news-card__text-wrapper">
-                     
                       <h3 className="news-card__title fontthai">
-                        {t("home.section1." + data.title)}
+                        {data.title}
                       </h3>
 
                       <div className="news-card__details-wrapper">

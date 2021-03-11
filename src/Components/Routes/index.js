@@ -10,7 +10,6 @@ export default function Routes() {
   return (
     <div>
       <ScrollToTop />
-      
       <Switch>
         <Route exact path="/services" component={Services} />
         <Route exact path="/" component={Home} />

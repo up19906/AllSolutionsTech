@@ -12,7 +12,7 @@ export default function Aboutus() {
       <div
         className="hero-service breadcrumb-option set-bg"
         style={{
-          backgroundImage: 'url("Picture/about/about5.jpg")',
+          backgroundImage: `url(${t("aboutus.bgAboutus")})`,
         }}
       >
         <div className="container">
@@ -20,11 +20,10 @@ export default function Aboutus() {
             <div className="col-lg-12 text-center">
               <div className="bg-text">
                 <div className="breadcrumb__text">
-                  <h2>{t("header.menu4")}</h2>
+                  <h2>{t("aboutus.titleAboutus")}</h2>
                   <div className="breadcrumb__links">
-                    <Link to="/">{t("header.menu1")}</Link>
-                   
-                    <span>{t("header.menu4")}</span>
+                    <Link to="/">{t("aboutus.titleHome")}</Link>
+                    <span>{t("aboutus.titleAboutus")}</span>
                   </div>
                 </div>
               </div>
@@ -37,7 +36,7 @@ export default function Aboutus() {
         <div className="blockquote">
           <Container>
             <h2 style={{ marginTop: "35px", fontSize: "28px" }}>
-              {t("home.section1.header")}
+              {t("aboutus.header")}
             </h2>
             <p
               style={{ fontSize: "18px", margin: "4vh 0", textAlign: "center" }}
@@ -47,11 +46,11 @@ export default function Aboutus() {
           </Container>
         </div>
       </div>
-      <div style={{ width: "99%", paddingLeft: "1.7vw" }}>
+      <div style={{ width: "98%", paddingLeft: "1.7vw" }}>
         <div
           className="bg-about"
           style={{
-            backgroundImage: "url(Picture/bg-about1.jpg)",
+            backgroundImage: `url(${t("aboutus.img1")})`,
           }}
         >
           <Row>
@@ -74,7 +73,7 @@ export default function Aboutus() {
               className="bg-about"
               style={{
                 // margin: "0 50px",
-                backgroundImage: "url(Picture/bg-about2_1.jpg)",
+                backgroundImage: `url(${t("aboutus.img2")})`,
               }}
             >
               <Row>
@@ -96,8 +95,7 @@ export default function Aboutus() {
             <div
               className="bg-about"
               style={{
-                // margin: "0 50px",
-                backgroundImage: "url(Picture/bg-about3_1.jpg)",
+                backgroundImage: `url(${t("aboutus.img3")})`,
               }}
             >
               <Row>

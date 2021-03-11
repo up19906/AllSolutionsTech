@@ -14,7 +14,7 @@ export default function Section1() {
       <div
         className="banner-top"
         style={{
-          backgroundImage: 'url("Picture/header-bg4.jpg")',
+          backgroundImage: `url(${t("home.section1.bgsection1")})`,
         }}
       ></div>
       <div
